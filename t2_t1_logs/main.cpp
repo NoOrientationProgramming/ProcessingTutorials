@@ -1,4 +1,5 @@
 
+#include <iostream>
 #include <thread>
 
 #include "Supervising.h"
@@ -12,6 +13,11 @@ int main(int argc, char *argv[])
 	levelLogSet(4);
 
 	pApp = Supervising::create();
+	if (!pApp)
+	{
+		cerr << "could not create process" << endl;
+		return 1;
+	}
 
 	while (1)
 	{
