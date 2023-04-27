@@ -1,4 +1,5 @@
 
+#include <iostream>
 #include <thread>
 
 #include "Supervising.h"
@@ -10,6 +11,11 @@ Supervising *pApp = NULL;
 int main(int argc, char *argv[])
 {
 	pApp = Supervising::create();
+	if (!pApp)
+	{
+		cerr << "could not create process" << endl;
+		return 1;
+	}
 
 	while (1)
 	{
