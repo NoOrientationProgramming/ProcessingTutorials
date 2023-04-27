@@ -1,6 +1,7 @@
 
 cx=g++
-flagsCxx=-I../Processing/core_MIT
+flagsCxx= \
+	-I../Processing/core_MIT
 
 obs= \
 	Processing.o \
