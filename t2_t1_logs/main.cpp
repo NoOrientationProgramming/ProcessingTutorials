@@ -9,9 +9,9 @@ Supervising *pApp = NULL;
 
 int main(int argc, char *argv[])
 {
-	pApp = Supervising::create();
-
 	levelLogSet(4);
+
+	pApp = Supervising::create();
 
 	while (1)
 	{
