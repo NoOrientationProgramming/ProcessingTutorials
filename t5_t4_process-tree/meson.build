@@ -10,6 +10,7 @@ myApp = executable(
 		'../Processing/core_MIT/Processing.cpp',
 		'main.cpp',
 		'Supervising.cpp',
+		'../Processing/core_MIT/Log.cpp',
 		'../Processing/core_MIT/SystemDebugging.cpp',
 		'../Processing/core_MIT/SystemCommanding.cpp',
 		'../Processing/core_MIT/TcpListening.cpp',
@@ -21,5 +22,8 @@ myApp = executable(
 		'../Processing/core_MIT',
 		'../Processing/common_GPLv3',
 	]),
+	cpp_args : [
+		'-DCONFIG_PROC_HAVE_LOG=1',
+	],
 )
 

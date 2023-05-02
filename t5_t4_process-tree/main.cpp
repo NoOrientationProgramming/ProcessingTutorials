@@ -18,6 +18,8 @@ void applicationCloseRequested(int signum)
 
 int main(int argc, char *argv[])
 {
+	levelLogSet(4);
+
 	signal(SIGINT, applicationCloseRequested);
 	signal(SIGTERM, applicationCloseRequested);
 

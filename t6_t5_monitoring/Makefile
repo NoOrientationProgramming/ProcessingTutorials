@@ -3,11 +3,13 @@ cx=g++
 flagsCxx= \
 	-I../Processing/core_MIT \
 	-I../Processing/common_GPLv3 \
+	-DCONFIG_PROC_HAVE_LOG=1 \
 
 obs= \
 	Processing.o \
 	main.o \
 	Supervising.o \
+	Log.o \
 	SystemDebugging.o \
 	SystemCommanding.o \
 	TcpListening.o \
