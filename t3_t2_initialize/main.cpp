@@ -10,6 +10,8 @@ Supervising *pApp = NULL;
 
 int main(int argc, char *argv[])
 {
+	levelLogSet(4);
+
 	pApp = Supervising::create();
 	if (!pApp)
 	{
