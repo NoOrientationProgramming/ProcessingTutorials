@@ -6,7 +6,7 @@ At the moment we have some options already.
 
 ## Create an issue
 
-You are using the [Processing()](https://github.com/NoOrientationProgramming/Processing) structure and encountered something strange you did not expect?
+You are using the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) structure and encountered something strange you did not expect?
 If you think this is a bug then please do not hesitate to create an issue. We will then check the situation.
 Try to make a clear description of
 - How to reproduce the behavior
