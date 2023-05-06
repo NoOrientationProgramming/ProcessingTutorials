@@ -18,10 +18,7 @@ Success Supervising::initialize()
 
 	SystemDebugging *pDbg = SystemDebugging::create(this);
 	if (!pDbg)
-	{
-		cerr << "could not create process" << endl;
-		return -1;
-	}
+		return procErrLog(-1, "could not create process");
 
 	start(pDbg);
 
