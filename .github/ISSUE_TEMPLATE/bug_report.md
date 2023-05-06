@@ -19,7 +19,7 @@ assignees: Naegolus
 - Additional environment
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Steps to reproduce the behavior
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -31,5 +31,5 @@ A clear and concise description of what you expected to happen.
 **Describe the result**
 A clear and concise description of what the bug is.
 
-**Screenshots and Logs**
+**Screenshots and logs**
 If applicable, add screenshots and logs to help explain your problem.
