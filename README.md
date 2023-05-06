@@ -1,6 +1,8 @@
 # ProcessingTutorials
 
-How to use the Processing() class
+Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class
 
-git submodule add https://github.com/NoOrientationProgramming/Processing.git
+## Add the Processing() class to your project
+
+git submodule add https://github.com/NoOrientationProgramming/ProcessingCore.git
 
