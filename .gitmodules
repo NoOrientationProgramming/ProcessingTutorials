@@ -1,1 +1,4 @@
 
+[submodule "ProcessingCore"]
+	path = ProcessingCore
+	url = https://github.com/NoOrientationProgramming/ProcessingCore.git
