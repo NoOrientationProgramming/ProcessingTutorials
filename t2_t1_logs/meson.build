@@ -7,13 +7,13 @@ project(
 myApp = executable(
 	'app',
 	[
-		'../Processing/core_MIT/Processing.cpp',
+		'../ProcessingCore/Processing.cpp',
 		'main.cpp',
 		'Supervising.cpp',
-		'../Processing/core_MIT/Log.cpp',
+		'../ProcessingCore/Log.cpp',
 	],
 	include_directories : include_directories([
-		'../Processing/core_MIT',
+		'../ProcessingCore',
 	]),
 	cpp_args : [
 		'-DCONFIG_PROC_HAVE_LOG=1',

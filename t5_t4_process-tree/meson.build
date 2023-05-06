@@ -7,17 +7,17 @@ project(
 myApp = executable(
 	'app',
 	[
-		'../Processing/core_MIT/Processing.cpp',
+		'../ProcessingCore/Processing.cpp',
 		'main.cpp',
 		'Supervising.cpp',
-		'../Processing/core_MIT/Log.cpp',
-		'../Processing/core_MIT/SystemDebugging.cpp',
-		'../Processing/core_MIT/SystemCommanding.cpp',
-		'../Processing/core_MIT/TcpListening.cpp',
-		'../Processing/core_MIT/TcpTransfering.cpp',
+		'../ProcessingCore/Log.cpp',
+		'../ProcessingCore/SystemDebugging.cpp',
+		'../ProcessingCore/SystemCommanding.cpp',
+		'../ProcessingCore/TcpListening.cpp',
+		'../ProcessingCore/TcpTransfering.cpp',
 	],
 	include_directories : include_directories([
-		'../Processing/core_MIT',
+		'../ProcessingCore',
 	]),
 	cpp_args : [
 		'-DCONFIG_PROC_HAVE_LOG=1',

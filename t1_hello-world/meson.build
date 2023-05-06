@@ -7,12 +7,12 @@ project(
 myApp = executable(
 	'app',
 	[
-		'../Processing/core_MIT/Processing.cpp',
+		'../ProcessingCore/Processing.cpp',
 		'main.cpp',
 		'Supervising.cpp',
 	],
 	include_directories : include_directories([
-		'../Processing/core_MIT',
+		'../ProcessingCore',
 	]),
 )
 
