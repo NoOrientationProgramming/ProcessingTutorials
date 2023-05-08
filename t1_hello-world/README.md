@@ -16,7 +16,7 @@ We would recommend to use meson because it's a new easy-to-use build system. You
 
 ## main.cpp
 
-You should be familiar with the function `main()`. This is the entry point of your application and must be available to the linker somewhere in your application. The function is usually located in a file called `main.cpp` like here. We will go through this file line by line. On top we have all necessary includes. The first two
+You should be familiar with the function `main()`. This is the entry point of your application and must be available to the linker somewhere in your application. The function is usually located in a file called `main.cpp` like here. We will go through this file line by line. The main file is almost the same for all projects and can be reused very often. On top we have all necessary includes. The first two
 ```
 #include <iostream>
 #include <thread>
@@ -29,3 +29,8 @@ The next line
 ```
 gives you access to the top-level (root) process of your application. This process is called `Supervising()` in our case. The name is chosen because in most cases this process is used to encapsulate the `SystemDebugging()` process as well as the actual high-level process of the application which is containing all of your business logic. You can call the process as you like of course. There is only one thing we would strongly recommend: The end of the process name should be a verb in present participle (ing-form)
 
+Now we add all namespaces we want to use. In this case we only use `std`
+```
+using namespace std;
+```
+This line is optional. You can omit this line if you want. Just remember to write `std::cout` instead of `cout` then.
