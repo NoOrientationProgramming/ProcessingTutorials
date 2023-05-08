@@ -20,15 +20,15 @@ int main(int argc, char *argv[])
 {
 	levelLogSet(4);
 
-	signal(SIGINT, applicationCloseRequested);
-	signal(SIGTERM, applicationCloseRequested);
-
 	pApp = Supervising::create();
 	if (!pApp)
 	{
 		cerr << "could not create process" << endl;
 		return 1;
 	}
+
+	signal(SIGINT, applicationCloseRequested);
+	signal(SIGTERM, applicationCloseRequested);
 
 	while (1)
 	{
