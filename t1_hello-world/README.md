@@ -1,4 +1,33 @@
 
+# Welcome to the Processing() tutorials! <!-- omit in toc -->
+
+TODO ...
+
+## Introduction
+
+Important: If we say `process` we are not talking about a process (program) which is running on a so-called "Operating System" (Unicorn).
+
+TODO
+- Program is a sequence of commands
+- Early days: Just functions
+- Now: Two more cases
+  - Tasks with high CPU load
+  - Network and communication
+- What is a function?
+  - Math: y = f(x)
+  - Software (Stack)
+- What is a process?
+  - Math: y = p(x, t)
+  - Software (Heap)
+- The (abstract) C++ class Processing() implements the general behavior of a process
+- All specific processes are derived from the abstract base class Processing()
+  - Reducing the class diagram to a minimum
+  - Information about the system structure is shown as a graph now
+  - This has many advantages!
+  - For further information check out the wiki pages
+- All processes are located on the dynamic memory (Heap)
+- On Microcontrollers heap is faked
+
 ## Files
 
 - Makefile & meson.build
@@ -6,7 +35,7 @@
 - Supervising.h
 - Supervising.cpp
 
-## Makefile & meson.build
+### Makefile & meson.build
 
 These files define how to build the application. We will not discuss them here.
 More information about the files can be found at
@@ -16,7 +45,7 @@ More information about the files can be found at
 We would recommend to use meson because it's a new easy-to-use build system.
 You can also use others like CMake, autotools or others of course.
 
-## main.cpp
+### main.cpp
 
 You should be familiar with the function `main()`.
 This is the entry point of your application and must be available to the linker somewhere in your application.
@@ -36,20 +65,6 @@ The next line
 #include "Supervising.h"
 ```
 gives you access to a C++ class. The class implements the top-level (root) process of your application.
-Important: If we say `process` we are not talking about a process (program) which is running on a so-called "Operating System".
-
-At this point we should explain some key concepts and our naming conventions already.
-TODO:
-- What is a function?
-  - Math: y = f(x)
-  - Software (Stack)
-- What is a process?
-  - Math: y = p(x, t)
-  - Software (Heap)
-- The (abstract) C++ class Processing() implements the general behavior of a process
-- All processes are located on the dynamic memory (Heap)
-- On Microcontrollers heap is faked
-
 The root process is called `Supervising()` in this tutorial.
 The name is chosen because in most cases this process is used to encapsulate the `SystemDebugging()` process as well as
 the actual high-level process of the application which is containing all of your business logic.
@@ -69,3 +84,4 @@ Supervising *pApp = NULL;
 ```
 we create a variable which is located in the initialized data section of our program.
 This variable will contain the address (pointer) to our root process.
+
