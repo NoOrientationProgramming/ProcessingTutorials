@@ -7,7 +7,7 @@ Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/
 ### Processing()
 
 - Mature code created in 2018
-- Finished to: 99%
+- Finished
 
 ### ProcessingTutorials
 
