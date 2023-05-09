@@ -2,6 +2,24 @@
 
 Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
 
+## Status of the project
+
+### Processing()
+
+- Mature code created in 2018
+- Finished to: 99%
+
+### ProcessingTutorials
+
+- In progress
+- Goal
+  - Approx. 10 short applications
+  - Only containing usage of the Processing() class
+  - No other dependencies
+  - Running on Windows / Linux (Desktop + R-Pi)
+  - README for every tutorial
+- Finished to: 30%
+
 ## Run the Tutorials
 
 ### Install the required Build Tools
