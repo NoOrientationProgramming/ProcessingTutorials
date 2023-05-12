@@ -4,6 +4,10 @@ project(
 	'cpp',
 )
 
+args = []
+
+args += '-DCONFIG_PROC_HAVE_LOG=1'
+
 myApp = executable(
 	'app',
 	[
@@ -15,8 +19,6 @@ myApp = executable(
 	include_directories : include_directories([
 		'../ProcessingCore',
 	]),
-	cpp_args : [
-		'-DCONFIG_PROC_HAVE_LOG=1',
-	],
+	cpp_args : [args],
 )
 
