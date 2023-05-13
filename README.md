@@ -48,7 +48,7 @@ Enter a tutorial directory. For example `cd t1_hello-world/`
 
 Build the application with
 
-`meson build && ninja -C build`
+`./ninja.sh`
 
 Then execute the application by entering
 
