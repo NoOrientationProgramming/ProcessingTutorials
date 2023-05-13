@@ -1,0 +1,44 @@
+
+libgcc_s_seh-1.dll
+libstdc++-6.dll
+libwinpthread-1.dll
+
+- https://www.youtube.com/watch?v=myouQBBDhXQ&t=467s
+- https://www.thegeekdiary.com/a-beginners-guide-to-create-files-folders-inside-windows-subsystem-for-linux/
+- https://learn.microsoft.com/en-us/windows/wsl/install
+- https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/nested-virt.html
+- https://www.youtube.com/watch?v=xOqL9QlfAwI
+- https://github.com/microsoft/WSL/issues/4120
+- https://askubuntu.com/questions/1264102/wsl-2-wont-run-ubuntu-error-0x80370102
+- https://forums.virtualbox.org/viewtopic.php?f=6&t=94553
+- https://answers.microsoft.com/en-us/windows/forum/all/wslregisterdistribution-failed-with-error/5fdd8aa6-175e-4a14-8fe6-07673133fd15
+
+PS C:\Users\...> wsl --update
+PS C:\Users\...> wsl --set-default-version 1
+PS C:\Users\...> wsl --status
+PS C:\Users\...> wsl --list --online
+PS C:\Users\...> wsl --install -d Ubuntu-20.04
+
+Create user and password
+
+$ sudo su
+enter user password
+# apt update
+# apt -y upgrade
+# apt update --fix-missing
+# apt -y install git vim netcat telnet build-essential python3 python3-pip mingw-w64 g++-arm-linux-gnueabihf cmake
+# update-alternatives --set x86_64-w64-mingw32-g++ /usr/bin/x86_64-w64-mingw32-g++-posix
+# pip3 install meson ninja
+
+$ cd ~
+$ git clone https://github.com/NoOrientationProgramming/ProcessingTutorials.git
+$ cd ProcessingTutorials/
+$ git submodule update --init --recursive
+
+$ cd t6_t5_monitoring/
+$ ./ninja.sh
+$ cd build-windows
+$ cp /usr/lib/gcc/x86_64-w64-mingw32/10-posix/libgcc_s_seh-1.dll .
+$ cp /usr/lib/gcc/x86_64-w64-mingw32/10-posix/libstdc++-6.dll .
+$ cp /usr/x86_64-w64-mingw32/lib/libwinpthread-1.dll .
+
