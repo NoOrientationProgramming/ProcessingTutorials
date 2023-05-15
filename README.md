@@ -36,7 +36,7 @@ If you want to use [meson and ninja](https://mesonbuild.com/) (recommended) add
 
 `git clone https://github.com/NoOrientationProgramming/ProcessingTutorials.git`
 
-### Initialize and Update the Submodules
+Initialize and Update the Submodules
 
 Enter the new directory with `cd ProcessingTutorials/` and execute
 
