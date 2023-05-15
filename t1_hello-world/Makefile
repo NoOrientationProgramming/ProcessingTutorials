@@ -1,7 +1,7 @@
 
 cx=g++
 flagsCxx= \
-	-I../Processing/core_MIT \
+	-I../ProcessingCore \
 
 obs= \
 	Processing.o \
@@ -19,7 +19,7 @@ all: $(obs)
 %.o: %.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
-%.o: ../Processing/core_MIT/%.cpp
+%.o: ../ProcessingCore/%.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
 clean:

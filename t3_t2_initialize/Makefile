@@ -1,7 +1,7 @@
 
 cx=g++
 flagsCxx= \
-	-I../Processing/core_MIT \
+	-I../ProcessingCore \
 	-DCONFIG_PROC_HAVE_LOG=1 \
 
 obs= \
@@ -21,7 +21,7 @@ all: $(obs)
 %.o: %.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
-%.o: ../Processing/core_MIT/%.cpp
+%.o: ../ProcessingCore/%.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
 clean:

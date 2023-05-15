@@ -1,8 +1,7 @@
 
 cx=g++
 flagsCxx= \
-	-I../Processing/core_MIT \
-	-I../Processing/common_GPLv3 \
+	-I../ProcessingCore \
 	-DCONFIG_PROC_HAVE_LOG=1 \
 
 obs= \
@@ -14,8 +13,6 @@ obs= \
 	SystemCommanding.o \
 	TcpListening.o \
 	TcpTransfering.o \
-	LibTime.o \
-	LibFilesys.o \
 
 nameApp=app
 ifeq ($(OS),Windows_NT)
@@ -28,10 +25,7 @@ all: $(obs)
 %.o: %.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
-%.o: ../Processing/core_MIT/%.cpp
-	$(cx) $(flagsCxx) -c $< -o $@
-
-%.o: ../Processing/common_GPLv3/%.cpp
+%.o: ../ProcessingCore/%.cpp
 	$(cx) $(flagsCxx) -c $< -o $@
 
 clean:
