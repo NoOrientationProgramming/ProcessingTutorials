@@ -1,17 +1,17 @@
 #!/bin/bash
 
-if [ ! -d "build-ubuntu" ]; then
-	meson setup build-ubuntu
+if [ ! -d "build-meson-ubuntu" ]; then
+	meson setup build-meson-ubuntu
 fi
-ninja -C build-ubuntu
+ninja -C build-meson-ubuntu
 
-if [ ! -d "build-windows" ]; then
-	meson setup --cross-file ../docker/dependencies/build/crosscompile-win64.txt build-windows
+if [ ! -d "build-meson-windows" ]; then
+	meson setup --cross-file ../docker/dependencies/build/crosscompile-win64.txt build-meson-windows
 fi
-ninja -C build-windows
+ninja -C build-meson-windows
 
-if [ ! -d "build-raspberry" ]; then
-	meson setup --cross-file ../docker/dependencies/build/crosscompile-rpi.txt build-raspberry
+if [ ! -d "build-meson-raspberry" ]; then
+	meson setup --cross-file ../docker/dependencies/build/crosscompile-rpi.txt build-meson-raspberry
 fi
-ninja -C build-raspberry
+ninja -C build-meson-raspberry
 
