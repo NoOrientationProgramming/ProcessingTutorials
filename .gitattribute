@@ -1,9 +1,4 @@
 
-cmake.sh linguist-vendored
-lines.sh linguist-vendored
-meson.sh linguist-vendored
-
-*/CMakeLists.txt linguist-vendored
-*/Makefile linguist-vendored
-*/meson.build linguist-vendored
+* linguist-vendored
+*.cpp linguist-vendored=false
 
