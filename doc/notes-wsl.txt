@@ -1,11 +1,11 @@
 
 1. Install Linux Subsystem on Windows (PowerShell)
 
+PS C:\Users\...> wsl --list --online
+PS C:\Users\...> wsl --install -d Ubuntu-20.04
 PS C:\Users\...> wsl --update
 PS C:\Users\...> wsl --set-default-version 1
 PS C:\Users\...> wsl --status
-PS C:\Users\...> wsl --list --online
-PS C:\Users\...> wsl --install -d Ubuntu-20.04
 
 2. In Ubuntu Shell
 
