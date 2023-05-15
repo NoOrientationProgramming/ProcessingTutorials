@@ -10,14 +10,6 @@ add_definitions(
 	"-DCONFIG_PROC_HAVE_LOG=1"
 )
 
-if (WIN32)
-	add_definitions(
-		"-D_WIN32_WINNT=_WIN32_WINNT_WIN10"
-		"-DWINVER=_WIN32_WINNT_WIN10"
-	)
-	add_library("ws2_32")
-endif()
-
 add_executable(
 	app
 	../ProcessingCore/Processing.cpp
@@ -29,4 +21,15 @@ add_executable(
 	../ProcessingCore/TcpListening.cpp
 	../ProcessingCore/TcpTransfering.cpp
 )
+
+if (WIN32)
+	add_definitions(
+		"-D_WIN32_WINNT=_WIN32_WINNT_WIN10"
+		"-DWINVER=_WIN32_WINNT_WIN10"
+	)
+	target_link_libraries(
+		app
+		"ws2_32"
+	)
+endif()
 
