@@ -16,7 +16,7 @@ Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/
   - Approx. 10 short applications
   - Only containing usage of the Processing() class
   - No other dependencies
-  - Running on Windows / Linux (Desktop + R-Pi)
+  - Running on Windows, Linux & Raspberry Pi
   - README for every tutorial
 - Finished to: 30%
 
