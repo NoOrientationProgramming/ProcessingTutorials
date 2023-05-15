@@ -44,15 +44,14 @@ Enter the new directory with `cd ProcessingTutorials/` and execute
 
 ### Build and Run a Tutorial
 
-Enter a tutorial directory. For example `cd t1_hello-world/`
-
-Build the application with
-
-`./ninja.sh`
+Type
+`./meson.sh t1_hello-world`
+or just
+`./meson.sh t1`
 
 Then execute the application by entering
 
-`./build/app`
+`./t1_hello-world/build-meson-ubuntu/app`
 
 ### Read the documentation
 
