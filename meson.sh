@@ -39,8 +39,8 @@ if [ ! -d "build-meson-windows" ]; then
 fi
 ninja -C build-meson-windows
 
-#if [ ! -d "build-meson-raspberry" ]; then
-#	meson setup --cross-file ../docker/dependencies/build/crosscompile-rpi.txt build-meson-raspberry
-#fi
-#ninja -C build-meson-raspberry
+if [ ! -d "build-meson-raspberry" ]; then
+	meson setup --cross-file ../docker/dependencies/build/crosscompile-rpi.txt build-meson-raspberry
+fi
+ninja -C build-meson-raspberry
 
