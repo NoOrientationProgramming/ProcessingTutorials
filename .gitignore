@@ -53,3 +53,11 @@ transactionsOut.json
 ext/
 build*
 
+.vs/
+x64/
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.user
+*.filters
+
