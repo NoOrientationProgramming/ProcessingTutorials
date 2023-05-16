@@ -10,7 +10,7 @@ if [ ! -z "$1" ]; then
 	if [ -d "$inUser" ]; then
 		dirTut="$inUser"
 	else
-		dirTut="$(ls -1 | grep t1 | sort | head -n 1)"
+		dirTut="$(ls -1 | grep "$inUser" | sort | head -n 1)"
 	fi
 fi
 
