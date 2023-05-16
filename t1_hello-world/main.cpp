@@ -10,6 +10,9 @@ Supervising *pApp = NULL;
 
 int main(int argc, char *argv[])
 {
+	(void)argc;
+	(void)argv;
+
 	pApp = Supervising::create();
 	if (!pApp)
 	{

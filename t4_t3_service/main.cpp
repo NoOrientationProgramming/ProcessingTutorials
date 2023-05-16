@@ -18,6 +18,9 @@ void applicationCloseRequested(int signum)
 
 int main(int argc, char *argv[])
 {
+	(void)argc;
+	(void)argv;
+
 	levelLogSet(4);
 
 	pApp = Supervising::create();
