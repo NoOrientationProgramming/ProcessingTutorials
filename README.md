@@ -1,7 +1,8 @@
 
-Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
-
+![GitHub](https://img.shields.io/github/license/NoOrientationProgramming/ProcessingTutorials?style=plastic)
 ![Twitch Status](https://img.shields.io/twitch/status/Naegolus?label=twitch.tv%2FNaegolus&logo=Twitch&logoColor=%2300ff00&style=plastic)
+
+Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
 
 &rarr; Streaming every Tuesday and Thursday at 20:00 (8 PM) CEST at [twitch.tv/Naegolus](https://twitch.tv/Naegolus)
 
