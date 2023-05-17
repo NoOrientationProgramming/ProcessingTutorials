@@ -1,8 +1,11 @@
-# ProcessingTutorials <!-- omit in toc -->
 
 Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
 
-## Status of the project
+![Twitch Status](https://img.shields.io/twitch/status/Naegolus?label=twitch.tv%2FNaegolus&logo=Twitch&logoColor=%2300ff00&style=plastic)
+
+&rarr; Streaming every Tuesday and Thursday at 20:00 (8 PM) CEST
+
+# Status of the project
 
 ### Processing()
 
@@ -20,7 +23,7 @@ Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/
   - README for every tutorial
 - Finished to: 30%
 
-## Run the Tutorials
+# Run the Tutorials
 
 ### Install the required Build Tools
 
@@ -57,7 +60,7 @@ Then execute the application by entering
 
 Every tutorial will have its own README file for further information explaining what is going on.
 
-## Add the Processing() class to your project
+# Add the Processing() class to your project
 
 If you want to use the core in your own project then simply add the repository as a submodule like this
 
