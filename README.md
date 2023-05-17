@@ -3,7 +3,7 @@ Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/
 
 ![Twitch Status](https://img.shields.io/twitch/status/Naegolus?label=twitch.tv%2FNaegolus&logo=Twitch&logoColor=%2300ff00&style=plastic)
 
-&rarr; Streaming every Tuesday and Thursday at 20:00 (8 PM) CEST
+&rarr; Streaming every Tuesday and Thursday at 20:00 (8 PM) CEST at [twitch.tv/Naegolus](https://twitch.tv/Naegolus)
 
 # Status of the project
 
