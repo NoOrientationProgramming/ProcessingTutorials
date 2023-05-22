@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 *.user
 *.filters
 
+.recents.json
+sk
+
