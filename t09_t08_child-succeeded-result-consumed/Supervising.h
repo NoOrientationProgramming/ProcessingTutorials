@@ -3,6 +3,7 @@
 #define SUPERVISING_H
 
 #include "Processing.h"
+#include "CntSecIncrementing.h"
 
 class Supervising : public Processing
 {
@@ -29,6 +30,9 @@ private:
 	void processInfo(char *pBuf, char *pBufEnd);
 
 	uint32_t mCounter1;
+	CntSecIncrementing *mpChild;
+	
+	bool mResultConsumed;
 
 };
 

@@ -3,13 +3,14 @@
 
 #include "Supervising.h"
 #include "SystemDebugging.h"
-#include "CntSecIncrementing.h"
 
 using namespace std;
 
 Supervising::Supervising()
 	: Processing("Supervising")
 	, mCounter1(0)
+	, mpChild(NULL)
+	, mResultConsumed(false)
 {}
 
 Success Supervising::initialize()
@@ -23,20 +24,29 @@ Success Supervising::initialize()
 
 	start(pDbg);
 
-	Processing *pProc;
-
-	pProc = CntSecIncrementing::create();
-	if (!pProc)
+	mpChild = CntSecIncrementing::create();
+	if (!mpChild)
 		return procErrLog(-1, "could not create process");
 
-	start(pProc);
+	start(mpChild);
 
 	return Positive;
 }
 
 Success Supervising::process()
 {
+	Success success;
+
 	++mCounter1;
+
+	success = mpChild->success();
+	if (success == Positive and !mResultConsumed)
+	{
+		cout << "Child counted up to: " << mpChild->mCounter2 << endl;
+
+		mResultConsumed = true;
+	}
+
 	return Pending;
 }
 
