@@ -14,6 +14,8 @@ public:
 		return new (std::nothrow) CntSecIncrementing;
 	}
 
+	uint32_t mCounter2;
+
 protected:
 
 	CntSecIncrementing();
@@ -34,7 +36,6 @@ private:
 	void processInfo(char *pBuf, char *pBufEnd);
 
 	/* member variables */
-	uint32_t mCounter2;
 
 	/* static functions */
 
