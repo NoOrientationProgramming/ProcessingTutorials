@@ -30,12 +30,12 @@ Success Supervising::process()
 {
 	++mCounter1;
 
-	cntSecProcess();
+	cntSecIncrement();
 
 	return Pending;
 }
 
-void Supervising::cntSecProcess()
+void Supervising::cntSecIncrement()
 {
 	mCounter2 += 5;
 }

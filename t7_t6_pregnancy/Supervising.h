@@ -28,7 +28,7 @@ private:
 	Success process();
 	void processInfo(char *pBuf, char *pBufEnd);
 
-	void cntSecProcess();
+	void cntSecIncrement();
 
 	uint32_t mCounter1;
 	uint32_t mCounter2;
