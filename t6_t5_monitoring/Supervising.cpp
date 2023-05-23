@@ -33,6 +33,6 @@ Success Supervising::process()
 
 void Supervising::processInfo(char *pBuf, char *pBufEnd)
 {
-	dInfo("Counter 1\t\t%d", mCounter1);
+	dInfo("Counter 1\t\t%d\n", mCounter1);
 }
 
