@@ -1,0 +1,12 @@
+
+For C
+echo | gcc -dM -E -
+echo | clang -dM -E -
+
+For C++
+echo | g++ -dM -E -x c++ -
+echo | clang++ -dM -E -x c++ -
+
+Literature
+- https://stackoverflow.com/questions/2224334/gcc-dump-preprocessor-defines
+
