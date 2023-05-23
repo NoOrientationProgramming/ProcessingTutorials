@@ -28,7 +28,7 @@ private:
 	Success process();
 	void processInfo(char *pBuf, char *pBufEnd);
 
-	uint32_t mCounter;
+	uint32_t mCounter1;
 
 };
 

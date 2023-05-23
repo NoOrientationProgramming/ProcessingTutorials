@@ -8,7 +8,7 @@ using namespace std;
 
 Supervising::Supervising()
 	: Processing("Supervising")
-	, mCounter(0)
+	, mCounter1(0)
 {}
 
 Success Supervising::initialize()
@@ -27,12 +27,12 @@ Success Supervising::initialize()
 
 Success Supervising::process()
 {
-	++mCounter;
+	++mCounter1;
 	return Pending;
 }
 
 void Supervising::processInfo(char *pBuf, char *pBufEnd)
 {
-	dInfo("Counter\t\t%d", mCounter);
+	dInfo("Counter 1\t\t%d", mCounter1);
 }
 
