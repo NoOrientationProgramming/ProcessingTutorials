@@ -1,0 +1,29 @@
+
+@startuml
+
+' skinparam linetype ortho
+
+component Log as log
+component "Processing()" as proc
+component "SystemCommanding()" as cmd
+component "SystemDebugging()" as dbg
+component "TcpListening()" as lst
+component "TcpTransfering()" as trans
+
+proc --> cmd
+proc --> dbg
+cmd -> dbg
+
+proc -u-> trans
+proc -u-> lst
+trans -> lst
+
+lst -> dbg
+trans -> cmd
+
+log -[dotted]d-> proc
+
+footer **Processing()** Core Dependencies \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:441px;height:337px;background:#FFFFFF;" version="1.1" viewBox="0 0 441 337" width="441px" zoomAndPan="magnify"><defs/><g><!--MD5=[30ba7fb1050e29c0f3290b9e87c281e8]
+entity log--><g id="elem_log"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="196.5" y="42.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="241.5" y="47.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="239.5" y="49.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="239.5" y="53.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="211.5" y="75.7151">Log</text></g><!--MD5=[2844129fefbfc2bd297b4d415d9e9044]
+entity proc--><g id="elem_proc"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="165.5" y="148.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="272.5" y="153.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="270.5" y="155.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="270.5" y="159.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="180.5" y="181.7151">Processing()</text></g><!--MD5=[f04bcface800b3498ac77214835b90cd]
+entity cmd--><g id="elem_cmd"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="7.5" y="254.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="180.5" y="259.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="178.5" y="261.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="178.5" y="265.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="22.5" y="287.7151">SystemCommanding()</text></g><!--MD5=[e52efcc15520919272a02ca3c9e88b46]
+entity dbg--><g id="elem_dbg"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="236" y="254.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="394" y="259.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="392" y="261.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="392" y="265.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="251" y="287.7151">SystemDebugging()</text></g><!--MD5=[59b54eeaa08804a9d6536120cd8301f0]
+entity lst--><g id="elem_lst"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="297" y="42.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="415" y="47.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="413" y="49.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="413" y="53.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="312" y="75.7151">TcpListening()</text></g><!--MD5=[1a0ec5614949d74da49acf65eed0b2d4]
+entity trans--><g id="elem_trans"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="7" y="42.72"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="141" y="47.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="139" y="49.72"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="139" y="53.72"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="22" y="75.7151">TcpTransfering()</text></g><!--MD5=[3927ab2dd1a46674450c2762aebeb58b]
+link proc to cmd--><g id="link_proc_cmd"><path d="M202.49,194.78 C182.6,211.32 155.34,234 134.54,251.31 " fill="none" id="proc-to-cmd" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="130.47,254.7,139.9516,252.0355,134.3193,251.5089,134.8459,245.8767,130.47,254.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1dff976e54968b417593bae083f20da2]
+link proc to dbg--><g id="link_proc_dbg"><path d="M249.36,194.78 C264.51,211.18 285.22,233.63 301.14,250.88 " fill="none" id="proc-to-dbg" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="304.67,254.7,301.5092,245.3721,301.2804,251.0243,295.6282,250.7955,304.67,254.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0570e449d1f7d30217d3eb4e1b7bbdfb]
+link cmd to dbg--><g id="link_cmd_dbg"><path d="M200.69,277.72 C210.61,277.72 220.54,277.72 230.46,277.72 " fill="none" id="cmd-to-dbg" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="235.65,277.72,226.65,273.72,230.65,277.72,226.65,281.72,235.65,277.72" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[537839f42fe1f9bfc5979c5deb1a55d6]
+reverse link trans to proc--><g id="link_trans_proc"><path d="M118.87,91.73 C143.08,109.1 175.04,132.02 198.29,148.7 " fill="none" id="trans-backto-proc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="114.75,88.78,119.7261,97.2793,118.8109,91.697,124.3933,90.7819,114.75,88.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6a0bb6aa73557c6014418c3c6776f20f]
+reverse link lst to proc--><g id="link_lst_proc"><path d="M332.77,91.95 C309.93,109.29 279.89,132.09 258.01,148.7 " fill="none" id="lst-backto-proc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="336.95,88.78,327.3628,91.035,332.9673,91.8029,332.1994,97.4074,336.95,88.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[319480e7ee6fd51eb0b036579038ed35]
+link trans to lst--><g id="link_trans_lst"><path d="M122.05,42.64 C143.16,31.18 170.37,18.57 196.5,12.72 C224.69,6.41 233.4,6 261.5,12.72 C284.12,18.13 307.37,29.27 326.18,39.95 " fill="none" id="trans-to-lst" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="330.87,42.66,325.077,34.695,326.5403,40.1593,321.0759,41.6226,330.87,42.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4944a22a421fa7f71619ae879a300bcc]
+link lst to dbg--><g id="link_lst_dbg"><path d="M361.69,88.8 C354.12,127.55 338.48,207.69 330.28,249.7 " fill="none" id="lst-to-dbg" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="329.31,254.62,334.9568,246.5507,330.2659,249.7122,327.1044,245.0213,329.31,254.62" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[513df9a15814d97cc9b31059f4093fd3]
+link trans to cmd--><g id="link_trans_cmd"><path d="M86.1,88.8 C89.79,127.47 97.4,207.37 101.4,249.44 " fill="none" id="trans-to-cmd" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="101.9,254.62,105.0325,245.2826,101.428,249.6423,97.0682,246.0378,101.9,254.62" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d67db1c56582de4e5f33927fa434e543]
+link log to proc--><g id="link_log_proc"><path d="M229,88.78 C229,104.77 229,126.5 229,143.56 " fill="none" id="log-to-proc" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#181818" points="229,148.7,233,139.7,229,143.7,225,139.7,229,148.7" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="none" height="23.2813" style="stroke:none;stroke-width:1.0;" width="172" x="127.5" y="306.0169"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="71" x="127.5" y="315.2991">Processing()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="201.5" y="315.2991">Core Dependencies</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="130" y="326.9397">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[375b13a7b50f41b996fbfd04317c7733]
+@startuml
+
+' skinparam linetype ortho
+
+component Log as log
+component "Processing()" as proc
+component "SystemCommanding()" as cmd
+component "SystemDebugging()" as dbg
+component "TcpListening()" as lst
+component "TcpTransfering()" as trans
+
+proc - -> cmd
+proc - -> dbg
+cmd -> dbg
+
+proc -u-> trans
+proc -u-> lst
+trans -> lst
+
+lst -> dbg
+trans -> cmd
+
+log -[dotted]d-> proc
+
+footer **Processing()** Core Dependencies \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+@startuml
+
+
+component Log as log
+component "Processing()" as proc
+component "SystemCommanding()" as cmd
+component "SystemDebugging()" as dbg
+component "TcpListening()" as lst
+component "TcpTransfering()" as trans
+
+proc - -> cmd
+proc - -> dbg
+cmd -> dbg
+
+proc -u-> trans
+proc -u-> lst
+trans -> lst
+
+lst -> dbg
+trans -> cmd
+
+log -[dotted]d-> proc
+
+footer **Processing()** Core Dependencies \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
