@@ -1,0 +1,84 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+component "Parent\nPipe states after fork()" as pa {
+
+  component "Pipe stdin" as pStdIn1 {
+    folder "READ - Open\nPrevent SIGPIPE" as stdinRdDel
+    folder "WRITE - Using" as stdinWr
+    
+    stdinRdDel -[hidden]- stdinWr
+  }
+  
+  component "Pipe stdout" as pStdOut1 {
+    folder "READ - Using" as stdoutRd
+    folder "WRITE - Closed" as stdoutWrDel
+    
+    stdoutWrDel -[hidden]- stdoutRd
+  }
+
+  component "Pipe stderr" as pStdErr1 {
+    folder "READ - Using" as stderrRd
+    folder "WRITE - Closed" as stderrWrDel
+    
+    stderrRd -[hidden]- stderrWrDel
+  }
+  
+  stdinWr -[hidden]- stdoutWrDel
+  stdoutRd -[hidden]- stderrRd
+}
+
+node "Kernel" as krnl {
+  database "Buffer stdin" as bufStdIn
+  database "Buffer stdout" as bufStdOut
+  database "Buffer stderr" as bufStdErr
+  
+  bufStdIn -[hidden]- bufStdOut
+  bufStdOut -[hidden]- bufStdErr
+}
+
+component "Child\nPipe states after fork()" as chld {
+
+  component "Pipe stdin" as pStdIn2 {
+    folder "READ - Using" as stdinRd
+    folder "WRITE - Closed" as stdinWrDel
+    
+    stdinWrDel -[hidden]- stdinRd
+  }
+
+  component "Pipe stdout" as pStdOut2 {
+    folder "READ - Closed" as stdoutRdDel
+    folder "WRITE - Using" as stdoutWr
+    
+    stdoutRdDel -[hidden]- stdoutWr
+  }
+  
+  component "Pipe stderr" as pStdErr2 {
+    folder "WRITE - Using" as stderrWr
+    folder "READ - Closed" as stderrRdDel
+    
+    stderrWr -[hidden]- stderrRdDel
+  }
+  
+  stdinRd -[hidden]- stdoutRdDel
+  stdoutWr -[hidden]- stderrWr
+}
+
+stdoutWrDel -[hidden] bufStdIn
+
+stdinWr -> bufStdIn
+bufStdIn -> stdinRd
+bufStdIn -> stdinRdDel
+
+stdoutRd <- bufStdOut
+bufStdOut <- stdoutWr
+
+stderrRd <- bufStdErr
+bufStdErr <- stderrWr
+
+footer **FileExecuting()** Parent - Child Connection\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

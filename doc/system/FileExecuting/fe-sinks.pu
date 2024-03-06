@@ -1,0 +1,33 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+component "FileExecuting()" as chld
+database "**stdout**" as stdout
+database "stdout" as stdout2
+database "**stderr**" as stderr
+component "Sink select **(XOR)**" as sinkSelStdOut
+component "Sink select **(XOR)**" as sinkSelStdErr
+database "**Discard**\nby /dev/null\n\n(default)" as sinkDiscard
+database "**Manual**\nby Parenting()\n\nUsing\n- **read()**" as sinkManual
+database "**Automatic**\nby FileExecuting()\n\nUsing **(OR)**\n- const char *, len\n- string\n- int fd\n- Transfering *\n- Pipe<>" as sinkAuto
+database "- Discard (default)\n- Automatic" as sinkComb
+database "**Manual**\nby Parenting()\n\nUsing\n- **stderrRead()**" as sinkManual2
+
+chld --> stdout
+chld --> stderr
+stdout --> stdout2
+stdout2 --> sinkSelStdOut
+stderr --> sinkSelStdErr
+stdout2 <- sinkSelStdErr
+sinkSelStdOut --> sinkDiscard
+sinkSelStdOut --> sinkManual
+sinkSelStdOut --> sinkAuto
+sinkSelStdErr -> sinkManual2
+sinkSelStdErr --> sinkComb
+
+footer **FileExecuting()** Sink selection for stdout / stderr\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

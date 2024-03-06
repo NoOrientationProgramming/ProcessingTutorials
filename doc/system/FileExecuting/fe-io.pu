@@ -1,0 +1,31 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+component "FileExecuting()" as fe
+
+database "Arguments" as args
+database "Environment" as env
+database "stdin" as stdin
+database "Signals" as sig
+
+database "stdout" as stdout
+database "stderr" as stderr
+database "State\nchanges" as states
+database "Return\ncode" as res
+
+args --> fe
+env --> fe
+stdin --> fe
+sig --> fe
+
+fe --> stdout
+fe --> stderr
+fe --> states
+fe --> res
+
+footer **FileExecuting()** Inputs and Outputs\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

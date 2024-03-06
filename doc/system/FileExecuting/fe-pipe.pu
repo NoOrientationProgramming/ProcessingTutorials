@@ -1,0 +1,24 @@
+
+@startuml
+
+
+skinparam backgroundColor #ffffff
+
+component "Parenting()" as pa
+
+component "FileExecuting()" as fe {
+  component "FileExecuting()\nChild 1" as ch1
+  component "FileExecuting()\nChild 2" as ch2
+  component "FileExecuting()\nChild 3" as ch3
+  
+  ch1 --> ch2
+  ch2 --> ch3
+}
+
+pa -> ch1
+pa <- ch3
+
+footer **FileExecuting()** Piping()\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

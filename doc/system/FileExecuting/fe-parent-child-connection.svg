@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="864px" preserveAspectRatio="none" style="width:513px;height:864px;background:#FFFFFF;" version="1.1" viewBox="0 0 513 864" width="513px" zoomAndPan="magnify"><defs/><g><!--MD5=[6c53ad3f4e37935ce821da069101aac4]
+cluster pa--><g id="cluster_pa"><rect fill="none" height="750" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="230" x="7" y="77.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="217" y="82.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="215" y="84.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="215" y="88.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="96" y="103.8951">Parent</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="32" y="120.192">Pipe states after fork()</text></g><!--MD5=[fe3e807739d971f4b111c6e4e92e3c5f]
+cluster pStdIn1--><g id="cluster_pStdIn1"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="152" x="53" y="144.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="185" y="149.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="151.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="155.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="90" y="170.8951">Pipe stdin</text></g><!--MD5=[c92d0a8d341a1f1b7bfe94da507ee426]
+cluster pStdOut1--><g id="cluster_pStdOut1"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="158" x="47" y="369.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="185" y="374.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="376.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="380.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="81" y="395.8951">Pipe stdout</text></g><!--MD5=[38b56f83b53166c89998984f890255d9]
+cluster pStdErr1--><g id="cluster_pStdErr1"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="158" x="47" y="594.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="185" y="599.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="601.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="183" y="605.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="82" y="620.8951">Pipe stderr</text></g><!--MD5=[a18d716326550560d68d5f33b292eb39]
+cluster chld--><g id="cluster_chld"><rect fill="none" height="750" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="230" x="277" y="77.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="487" y="82.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="485" y="84.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="485" y="88.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="372.5" y="103.8951">Child</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="302" y="120.192">Pipe states after fork()</text></g><!--MD5=[0b74b82dcd5193062ba4405847daae7e]
+cluster pStdIn2--><g id="cluster_pStdIn2"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="158" x="317" y="144.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="455" y="149.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="453" y="151.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="453" y="155.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="357" y="170.8951">Pipe stdin</text></g><!--MD5=[8bc2fb5792d07d260523d86c4ca5e193]
+cluster pStdOut2--><g id="cluster_pStdOut2"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="152" x="317" y="369.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="449" y="374.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="447" y="376.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="447" y="380.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="348" y="395.8951">Pipe stdout</text></g><!--MD5=[ec7e22bd053ce6101638bbb95023c669]
+cluster pStdErr2--><g id="cluster_pStdErr2"><rect fill="none" height="201" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="152" x="317" y="594.9"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="449" y="599.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="447" y="601.9"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="447" y="605.9"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="349" y="620.8951">Pipe stderr</text></g><!--MD5=[6b43650f4c9ab4c674e2d0371c2b8e18]
+entity stdinRdDel--><g id="elem_stdinRdDel"><path d="M69,189.9 C69,179.9 129,179.9 129,179.9 C129,179.9 189,179.9 189,189.9 L189,215.1969 C189,225.1969 129,225.1969 129,225.1969 C129,225.1969 69,225.1969 69,215.1969 L69,189.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M69,189.9 C69,199.9 129,199.9 129,199.9 C129,199.9 189,199.9 189,189.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="79" y="216.8951">READ - Closed</text></g><!--MD5=[40e0e384a99ca7d53b6325470542cc59]
+entity stdinWr--><g id="elem_stdinWr"><path d="M72,294.9 C72,284.9 130,284.9 130,284.9 C130,284.9 188,284.9 188,294.9 L188,320.1969 C188,330.1969 130,330.1969 130,330.1969 C130,330.1969 72,330.1969 72,320.1969 L72,294.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M72,294.9 C72,304.9 130,304.9 130,304.9 C130,304.9 188,304.9 188,294.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="82" y="321.8951">WRITE - Using</text></g><!--MD5=[4f2bb0c9fa091e6be0e849878534c25c]
+entity stdoutRd--><g id="elem_stdoutRd"><path d="M74.5,414.9 C74.5,404.9 130,404.9 130,404.9 C130,404.9 185.5,404.9 185.5,414.9 L185.5,440.1969 C185.5,450.1969 130,450.1969 130,450.1969 C130,450.1969 74.5,450.1969 74.5,440.1969 L74.5,414.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M74.5,414.9 C74.5,424.9 130,424.9 130,424.9 C130,424.9 185.5,424.9 185.5,414.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="84.5" y="441.8951">READ - Using</text></g><!--MD5=[077f9edd0d6267f2c3c73ee65e0a67ad]
+entity stdoutWrDel--><g id="elem_stdoutWrDel"><path d="M63.5,519.9 C63.5,509.9 126,509.9 126,509.9 C126,509.9 188.5,509.9 188.5,519.9 L188.5,545.1969 C188.5,555.1969 126,555.1969 126,555.1969 C126,555.1969 63.5,555.1969 63.5,545.1969 L63.5,519.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M63.5,519.9 C63.5,529.9 126,529.9 126,529.9 C126,529.9 188.5,529.9 188.5,519.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="73.5" y="546.8951">WRITE - Closed</text></g><!--MD5=[c1d0ac4277bfe5434bdff99082f3014d]
+entity stderrRd--><g id="elem_stderrRd"><path d="M70.5,639.9 C70.5,629.9 126,629.9 126,629.9 C126,629.9 181.5,629.9 181.5,639.9 L181.5,665.1969 C181.5,675.1969 126,675.1969 126,675.1969 C126,675.1969 70.5,675.1969 70.5,665.1969 L70.5,639.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M70.5,639.9 C70.5,649.9 126,649.9 126,649.9 C126,649.9 181.5,649.9 181.5,639.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="80.5" y="666.8951">READ - Using</text></g><!--MD5=[62f355bb6888191d95b6427d96cbf812]
+entity stderrWrDel--><g id="elem_stderrWrDel"><path d="M63.5,744.9 C63.5,734.9 126,734.9 126,734.9 C126,734.9 188.5,734.9 188.5,744.9 L188.5,770.1969 C188.5,780.1969 126,780.1969 126,780.1969 C126,780.1969 63.5,780.1969 63.5,770.1969 L63.5,744.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M63.5,744.9 C63.5,754.9 126,754.9 126,754.9 C126,754.9 188.5,754.9 188.5,744.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="73.5" y="771.8951">WRITE - Closed</text></g><!--MD5=[7d0b8bbf3f02a5e02a8f7343f4289750]
+entity stdinRd--><g id="elem_stdinRd"><path d="M337.5,294.9 C337.5,284.9 393,284.9 393,284.9 C393,284.9 448.5,284.9 448.5,294.9 L448.5,320.1969 C448.5,330.1969 393,330.1969 393,330.1969 C393,330.1969 337.5,330.1969 337.5,320.1969 L337.5,294.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M337.5,294.9 C337.5,304.9 393,304.9 393,304.9 C393,304.9 448.5,304.9 448.5,294.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="347.5" y="321.8951">READ - Using</text></g><!--MD5=[9fe6274e6d6c839ad0f3aefdf48f5050]
+entity stdinWrDel--><g id="elem_stdinWrDel"><path d="M333.5,189.9 C333.5,179.9 396,179.9 396,179.9 C396,179.9 458.5,179.9 458.5,189.9 L458.5,215.1969 C458.5,225.1969 396,225.1969 396,225.1969 C396,225.1969 333.5,225.1969 333.5,215.1969 L333.5,189.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M333.5,189.9 C333.5,199.9 396,199.9 396,199.9 C396,199.9 458.5,199.9 458.5,189.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="343.5" y="216.8951">WRITE - Closed</text></g><!--MD5=[8d124768e35b0bcf5d3f155d705e5a09]
+entity stdoutWr--><g id="elem_stdoutWr"><path d="M335,519.9 C335,509.9 393,509.9 393,509.9 C393,509.9 451,509.9 451,519.9 L451,545.1969 C451,555.1969 393,555.1969 393,555.1969 C393,555.1969 335,555.1969 335,545.1969 L335,519.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M335,519.9 C335,529.9 393,529.9 393,529.9 C393,529.9 451,529.9 451,519.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="345" y="546.8951">WRITE - Using</text></g><!--MD5=[8a2b0d4bfb07964e3f1bedded725bb66]
+entity stdoutRdDel--><g id="elem_stdoutRdDel"><path d="M333,414.9 C333,404.9 393,404.9 393,404.9 C393,404.9 453,404.9 453,414.9 L453,440.1969 C453,450.1969 393,450.1969 393,450.1969 C393,450.1969 333,450.1969 333,440.1969 L333,414.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M333,414.9 C333,424.9 393,424.9 393,424.9 C393,424.9 453,424.9 453,414.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="343" y="441.8951">READ - Closed</text></g><!--MD5=[8cd26e00c0532e74c2b502a56d6bbe77]
+entity stderrWr--><g id="elem_stderrWr"><path d="M334,744.9 C334,734.9 392,734.9 392,734.9 C392,734.9 450,734.9 450,744.9 L450,770.1969 C450,780.1969 392,780.1969 392,780.1969 C392,780.1969 334,780.1969 334,770.1969 L334,744.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M334,744.9 C334,754.9 392,754.9 392,754.9 C392,754.9 450,754.9 450,744.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="344" y="771.8951">WRITE - Using</text></g><!--MD5=[3594fb6c94361af3cc8fe2b0492ca6ce]
+entity stderrRdDel--><g id="elem_stderrRdDel"><path d="M333,639.9 C333,629.9 393,629.9 393,629.9 C393,629.9 453,629.9 453,639.9 L453,665.1969 C453,675.1969 393,675.1969 393,675.1969 C393,675.1969 333,675.1969 333,665.1969 L333,639.9 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M333,639.9 C333,649.9 393,649.9 393,649.9 C393,649.9 453,649.9 453,639.9 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="343" y="666.8951">READ - Closed</text></g><!--MD5=[176a1690ccc43768335791a9ea64d1c6]
+link stdinRdDel to stdinWr--><!--MD5=[a3549da7ac38e66f0ecc10e1dab2b7e5]
+link stdoutRd to stdoutWrDel--><!--MD5=[55feaa4b266075a94e6a8f2544dd44c3]
+link stderrRd to stderrWrDel--><!--MD5=[093012fcc2228dac19623e0b161fb777]
+link stdinWr to stdoutRd--><!--MD5=[b3ead3ea35895d4d5e49c9e24a601430]
+link stdoutWrDel to stderrRd--><!--MD5=[e688c85e0ae5e303f76099a6f0c672f9]
+link stdinWrDel to stdinRd--><!--MD5=[f8490070d9ae1727bf1bf44425039c63]
+link stdoutRdDel to stdoutWr--><!--MD5=[73a1eaf3c5c8a7b3b31daf29bb772b8d]
+link stderrRdDel to stderrWr--><!--MD5=[41e48b99615b22b8c39d0b389fc640fb]
+link stdinRd to stdoutRdDel--><!--MD5=[4611ca768eb0f943f1fbe290a6111dd7]
+link stdoutWr to stderrRdDel--><!--MD5=[f5f4aca06935204c6e22771fb8344745]
+link pa to chld--><!--MD5=[639f07e1fa9b811ab21b8198420b01f8]
+link stdinWr to stdinRd--><g id="link_stdinWr_stdinRd"><path d="M188.04,307.4 C236.07,307.4 284.09,307.4 332.11,307.4 " fill="none" id="stdinWr-to-stdinRd" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="337.36,307.4,328.36,303.4,332.36,307.4,328.36,311.4,337.36,307.4" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cc47de3bed149d69eeb3fa58586b14cf]
+reverse link stdoutRd to stdoutWr--><g id="link_stdoutRd_stdoutWr"><path d="M189.93,451.87 C234.43,469.3 294.65,492.88 337.94,509.84 " fill="none" id="stdoutRd-backto-stdoutWr" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="185.13,449.99,192.0455,457.0026,189.7841,451.8174,194.9693,449.556,185.13,449.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[936f525afd626c36942669e31985392b]
+reverse link stderrRd to stderrWr--><g id="link_stderrRd_stderrWr"><path d="M186.62,676.87 C231.62,694.3 292.53,717.88 336.31,734.84 " fill="none" id="stderrRd-backto-stderrWr" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="181.76,674.99,188.6941,681.9841,186.4189,676.805,191.5981,674.5298,181.76,674.99" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="#FFFFFF" height="23.2813" style="stroke:none;stroke-width:1.0;" width="212" x="143.5" y="832.9"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="84" x="143.5" y="842.1822">FileExecuting()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="125" x="230.5" y="842.1822">Parent - Child Connection</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="166" y="853.8229">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[c919af4d7397b416764e3b891b939860]
+@startuml
+
+skinparam backgroundColor #ffffff
+
+component "Parent\nPipe states after fork()" as pa {
+
+  component "Pipe stdin" as pStdIn1 {
+    database "READ - Closed" as stdinRdDel
+    database "WRITE - Using" as stdinWr
+    
+    stdinRdDel -[hidden]- stdinWr
+  }
+  
+  component "Pipe stdout" as pStdOut1 {
+    database "READ - Using" as stdoutRd
+    database "WRITE - Closed" as stdoutWrDel
+    
+    stdoutRd -[hidden]- stdoutWrDel
+  }
+
+  component "Pipe stderr" as pStdErr1 {
+    database "READ - Using" as stderrRd
+    database "WRITE - Closed" as stderrWrDel
+    
+    stderrRd -[hidden]- stderrWrDel
+  }
+  
+  stdinWr -[hidden]- stdoutRd
+  stdoutWrDel -[hidden]- stderrRd
+}
+
+component "Child\nPipe states after fork()" as chld {
+
+  component "Pipe stdin" as pStdIn2 {
+    database "READ - Using" as stdinRd
+    database "WRITE - Closed" as stdinWrDel
+    
+    stdinWrDel -[hidden]- stdinRd
+  }
+
+  component "Pipe stdout" as pStdOut2 {
+    database "WRITE - Using" as stdoutWr
+    database "READ - Closed" as stdoutRdDel
+    
+    stdoutRdDel -[hidden]- stdoutWr
+  }
+  
+  component "Pipe stderr" as pStdErr2 {
+    database "WRITE - Using" as stderrWr
+    database "READ - Closed" as stderrRdDel
+    
+    stderrRdDel -[hidden]- stderrWr
+  }
+  
+  stdinRd -[hidden]- stdoutRdDel
+  stdoutWr -[hidden]- stderrRdDel
+}
+
+pa -[hidden] chld
+
+stdinWr -> stdinRd
+stdoutRd <- stdoutWr
+stderrRd <- stderrWr
+
+
+footer **FileExecuting()** Parent - Child Connection\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

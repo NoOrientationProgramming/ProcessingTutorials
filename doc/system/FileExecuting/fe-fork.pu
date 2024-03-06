@@ -1,0 +1,53 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+node "Parent Process\nProgram 1" as proc1 {
+  frame "User Space" as user1 {
+    component "Code 1" as code1
+    component "Data 1\n\n- Uninitialized\n- Initialized\n- Heap" as data1
+
+    data1 -[hidden] code1
+  }
+
+  frame "Kernel" as kernel1 {
+    frame "Task - Thread 1\n(Main)\n\n- Process ID\n- PC\n- Stack" as thread11
+    frame "Task - Thread 2\n(Worker 1)" as thread12
+    database "File Handles\n\n- stdin, stdout\n   stderr\n- Files\n- Sockets\n- Pipes\n- ..." as files1
+
+    thread12 -[hidden] thread11
+    thread11 -[hidden]- files1
+}
+
+  code1 --> thread11
+  code1 --> thread12
+  thread11 <--> data1
+  thread12 <--> data1
+}
+
+node "Child Process\nProgram 1" as proc2 {
+  frame "User Space" as user2 {
+    component "Code 1" as code2
+    component "Data 1\n\n- Uninitialized\n- Initialized\n- Heap" as data2
+
+    code2 -[hidden] data2
+  }
+
+  node "Kernel" as kernel2 {
+    frame "Task - Thread 1\n(Main)\n\n- Process ID\n- PC\n- Stack" as thread21
+    database "File Handles\n\n- stdin, stdout\n   stderr\n- Files\n- Sockets\n- Pipes\n- ..." as files2
+  
+    thread21 -[hidden] files2
+  }
+
+  code2 --> thread21
+  thread21 <--> data2
+}
+
+thread11 -> proc2 : "fork()"
+
+footer **FileExecuting()** fork()\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

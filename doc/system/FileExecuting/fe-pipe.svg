@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:322px;height:403px;background:#FFFFFF;" version="1.1" viewBox="0 0 322 403" width="322px" zoomAndPan="magnify"><defs/><g><!--MD5=[de0219f8f0689de2c3607d39a54e6766]
+cluster fe--><g id="cluster_fe"><rect fill="none" height="360" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="174" x="142" y="7"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="296" y="12"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="294" y="14"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="294" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="171" y="32.9951">FileExecuting()</text></g><!--MD5=[a9a3fafae8a46278d4baa94c9207eefa]
+entity ch1--><g id="elem_ch1"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="158.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="279.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="173.5" y="74.9951">FileExecuting()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="173.5" y="91.292">Child 1</text></g><!--MD5=[37cf825fbccc93491095e98524e24cc2]
+entity ch2--><g id="elem_ch2"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="158.5" y="165"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="279.5" y="170"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="172"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="176"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="173.5" y="197.9951">FileExecuting()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="173.5" y="214.292">Child 2</text></g><!--MD5=[015e263f741f484f2a20f24feeae2c68]
+entity ch3--><g id="elem_ch3"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="158.5" y="288"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="279.5" y="293"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="295"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="277.5" y="299"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="173.5" y="320.9951">FileExecuting()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="173.5" y="337.292">Child 3</text></g><!--MD5=[a5d792beb5c449bf1b5d88645a6c8ced]
+entity pa--><g id="elem_pa"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="7" y="50.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="103" y="55.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="101" y="57.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="101" y="61.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="22" y="83.4951">Parenting()</text></g><!--MD5=[32cdc1062d474bd40f7aaf5b6f922849]
+link ch1 to ch2--><g id="link_ch1_ch2"><path d="M229,105.03 C229,121.66 229,142.32 229,159.7 " fill="none" id="ch1-to-ch2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="229,164.98,233,155.98,229,159.98,225,155.98,229,164.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b905a16d366d4a825e71b9bcf1c035ed]
+link ch2 to ch3--><g id="link_ch2_ch3"><path d="M229,228.03 C229,244.66 229,265.32 229,282.7 " fill="none" id="ch2-to-ch3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="229,287.98,233,278.98,229,282.98,225,278.98,229,287.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[34745ced11021315cb79cd537db63dbb]
+link pa to ch1--><g id="link_pa_ch1"><path d="M123.3,73.5 C133.26,73.5 143.22,73.5 153.18,73.5 " fill="none" id="pa-to-ch1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="158.39,73.5,149.39,69.5,153.39,73.5,149.39,77.5,158.39,73.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cdff2dc0e8dbc42388c43c356145add3]
+reverse link pa to ch3--><g id="link_pa_ch3"><path d="M75.32,101.44 C88.17,133.24 111.99,186.98 141,228 C156.31,249.65 176.81,271.05 194.17,287.6 " fill="none" id="pa-backto-ch3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="73.35,96.53,72.9786,106.3719,75.207,101.1724,80.4064,103.4007,73.35,96.53" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="#FFFFFF" height="23.2813" style="stroke:none;stroke-width:1.0;" width="167" x="70.5" y="372"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="84" x="92" y="381.2822">FileExecuting()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="37" x="179" y="381.2822">Piping()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="70.5" y="392.9229">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[b443f7628a1d9c962ecfc23249b4a8e5]
+@startuml
+
+
+skinparam backgroundColor #ffffff
+
+component "Parenting()" as pa
+
+component "FileExecuting()" as fe {
+  component "FileExecuting()\nChild 1" as ch1
+  component "FileExecuting()\nChild 2" as ch2
+  component "FileExecuting()\nChild 3" as ch3
+  
+  ch1 - -> ch2
+  ch2 - -> ch3
+}
+
+pa -> ch1
+pa <- ch3
+
+footer **FileExecuting()** Piping()\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

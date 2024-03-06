@@ -1,0 +1,22 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+database "**Closed**\n(default)" as srcClosed
+database "**Manual**\nby Parenting()\n\nUsing\n- **send()**" as srcManual
+database "**Automatic**\nby FileExecuting()\n\nUsing **(XOR)**\n- const char *, len\n- string\n- int fd\n- Transfering *\n- Pipe<>" as srcAuto
+component "Source select **(XOR)**" as srcSel
+database "**stdin**" as stdin
+component "FileExecuting()" as chld
+
+srcClosed --> srcSel
+srcManual --> srcSel
+srcAuto --> srcSel
+srcSel --> stdin
+stdin --> chld
+
+footer **FileExecuting()** Source selection for stdin\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

@@ -1,0 +1,70 @@
+
+@startuml
+
+skinparam backgroundColor #ffffff
+
+component "Parent\nPipe states after fork()" as pa {
+
+  component "Pipe stdin" as pStdIn1 {
+    database "READ - Closed" as stdinRdDel
+    database "WRITE - Using" as stdinWr
+    
+    stdinRdDel -[hidden]- stdinWr
+  }
+  
+  component "Pipe stdout" as pStdOut1 {
+    database "READ - Using" as stdoutRd
+    database "WRITE - Closed" as stdoutWrDel
+    
+    stdoutRd -[hidden]- stdoutWrDel
+  }
+
+  component "Pipe stderr" as pStdErr1 {
+    database "READ - Using" as stderrRd
+    database "WRITE - Closed" as stderrWrDel
+    
+    stderrRd -[hidden]- stderrWrDel
+  }
+  
+  stdinWr -[hidden]- stdoutRd
+  stdoutWrDel -[hidden]- stderrRd
+}
+
+component "Child\nPipe states after fork()" as chld {
+
+  component "Pipe stdin" as pStdIn2 {
+    database "READ - Using" as stdinRd
+    database "WRITE - Closed" as stdinWrDel
+    
+    stdinWrDel -[hidden]- stdinRd
+  }
+
+  component "Pipe stdout" as pStdOut2 {
+    database "WRITE - Using" as stdoutWr
+    database "READ - Closed" as stdoutRdDel
+    
+    stdoutRdDel -[hidden]- stdoutWr
+  }
+  
+  component "Pipe stderr" as pStdErr2 {
+    database "WRITE - Using" as stderrWr
+    database "READ - Closed" as stderrRdDel
+    
+    stderrRdDel -[hidden]- stderrWr
+  }
+  
+  stdinRd -[hidden]- stdoutRdDel
+  stdoutWr -[hidden]- stderrRdDel
+}
+
+pa -[hidden] chld
+
+stdinWr -> stdinRd
+stdoutRd <- stdoutWr
+stderrRd <- stderrWr
+
+
+footer **FileExecuting()** Parent - Child Connection\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
