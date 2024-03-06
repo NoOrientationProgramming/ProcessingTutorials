@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1364px" preserveAspectRatio="none" style="width:467px;height:1364px;background:#FFFFFF;" version="1.1" viewBox="0 0 467 1364" width="467px" zoomAndPan="magnify"><defs/><g><!--MD5=[c26638a81821cf585a88e29a60357529]
+cluster s1--><g id="cluster_s1"><rect fill="none" height="113" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="344" x="26" y="7"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="350" y="12"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="348" y="14"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="348" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="191" x="102.5" y="32.9951">1. Existing() old process</text></g><!--MD5=[f9f12979b893e519b221ae9a27834ff5]
+cluster rp--><g id="cluster_rp"><rect fill="none" height="1031" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="454" x="7" y="152"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="441" y="157"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="439" y="159"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="439" y="163"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="88" x="190" y="177.9951">Replacing()</text></g><!--MD5=[08199a91f55f1eee6c032bde60db737c]
+cluster s2--><g id="cluster_s2"><rect fill="none" height="219" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="333" x="56" y="203"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="369" y="208"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="367" y="210"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="367" y="214"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="207" x="119" y="228.9951">2. Creating() new process</text></g><!--MD5=[e80b2a2e2b06ce4648c08fd86acf756b]
+cluster s3--><g id="cluster_s3"><rect fill="none" height="203" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="309" x="80" y="454"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="369" y="459"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="367" y="461"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="367" y="465"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="194" x="137.5" y="479.9951">3. Copying() old process</text></g><!--MD5=[1888f754de8c3c25dbb7a8a9dd7a110e]
+cluster s4--><g id="cluster_s4"><rect fill="none" height="219" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="406" x="31" y="681"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="417" y="686"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="415" y="688"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="415" y="692"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="390" x="39" y="706.9951">4. Improving() new process until it's Dominating()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="173.5" y="723.292">by Comparing()</text></g><!--MD5=[1dbd9da00545b9a808d2702f37e186b1]
+cluster s5--><g id="cluster_s5"><rect fill="none" height="219" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="352" x="73" y="932"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="405" y="937"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="403" y="939"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="403" y="943"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="238" x="130" y="957.9951">5. Switching() to new process</text></g><!--MD5=[e3be4e1c4d3fb8847950872de3030fa1]
+cluster s6--><g id="cluster_s6"><rect fill="none" height="113" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="352" x="48" y="1215"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="380" y="1220"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="378" y="1222"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="378" y="1226"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="195" x="126.5" y="1240.9951">6. Deleting() old process</text></g><!--MD5=[9b5fd479ff9e12a7cc0df0f0353b59f8]
+entity a1--><g id="elem_a1"><path d="M69,60.5 C69,50.5 83,50.5 83,50.5 C83,50.5 97,50.5 97,60.5 L97,85.7969 C97,95.7969 83,95.7969 83,95.7969 C83,95.7969 69,95.7969 69,85.7969 L69,60.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M69,60.5 C69,70.5 83,70.5 83,70.5 C83,70.5 97,70.5 97,60.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="79" y="87.4951">a</text></g><!--MD5=[55492eb1c4b62cc9e892e1fafdaeb44c]
+entity b1--><g id="elem_b1"><path d="M316.5,60.5 C316.5,50.5 331,50.5 331,50.5 C331,50.5 345.5,50.5 345.5,60.5 L345.5,85.7969 C345.5,95.7969 331,95.7969 331,95.7969 C331,95.7969 316.5,95.7969 316.5,85.7969 L316.5,60.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M316.5,60.5 C316.5,70.5 331,70.5 331,70.5 C331,70.5 345.5,70.5 345.5,60.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="326.5" y="87.4951">b</text></g><!--MD5=[03d695bfdbc0ac73a986503557502d68]
+entity op1--><g id="elem_op1"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="132" y="50"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="262" y="55"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="260" y="57"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="260" y="61"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="147" y="82.9951">OldProcessing()</text></g><!--MD5=[f89d8cb67b4d8c974030bdacf9c0cf39]
+entity a2--><g id="elem_a2"><path d="M88,362.5 C88,352.5 102,352.5 102,352.5 C102,352.5 116,352.5 116,362.5 L116,387.7969 C116,397.7969 102,397.7969 102,397.7969 C102,397.7969 88,397.7969 88,387.7969 L88,362.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M88,362.5 C88,372.5 102,372.5 102,372.5 C102,372.5 116,372.5 116,362.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="98" y="389.4951">a</text></g><!--MD5=[bb04a20f8ffc3fa40d9086bdeb8759dc]
+entity b2--><g id="elem_b2"><path d="M335.5,362.5 C335.5,352.5 350,352.5 350,352.5 C350,352.5 364.5,352.5 364.5,362.5 L364.5,387.7969 C364.5,397.7969 350,397.7969 350,397.7969 C350,397.7969 335.5,397.7969 335.5,387.7969 L335.5,362.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M335.5,362.5 C335.5,372.5 350,372.5 350,372.5 C350,372.5 364.5,372.5 364.5,362.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="345.5" y="389.4951">b</text></g><!--MD5=[46f6d553d75389400d0e41de49e2f4be]
+entity op2--><g id="elem_op2"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="151" y="352"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="281" y="357"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="279" y="359"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="279" y="363"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="166" y="384.9951">OldProcessing()</text></g><!--MD5=[5a7b70be5da5b378c682d2ce0003f614]
+entity np2--><g id="elem_np2"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="113.5" y="246"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="250.5" y="251"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="248.5" y="253"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="248.5" y="257"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="128.5" y="278.9951">NewProcessing()</text></g><!--MD5=[5fd553d62ae787dc09382bbdf294aa1e]
+entity a3--><g id="elem_a3"><path d="M96,605.5 C96,595.5 110,595.5 110,595.5 C110,595.5 124,595.5 124,605.5 L124,630.7969 C124,640.7969 110,640.7969 110,640.7969 C110,640.7969 96,640.7969 96,630.7969 L96,605.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M96,605.5 C96,615.5 110,615.5 110,615.5 C110,615.5 124,615.5 124,605.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="106" y="632.4951">a</text></g><!--MD5=[e9d95f20fc99ce2fb8b977df372e67de]
+entity b3--><g id="elem_b3"><path d="M343.5,605.5 C343.5,595.5 358,595.5 358,595.5 C358,595.5 372.5,595.5 372.5,605.5 L372.5,630.7969 C372.5,640.7969 358,640.7969 358,640.7969 C358,640.7969 343.5,640.7969 343.5,630.7969 L343.5,605.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M343.5,605.5 C343.5,615.5 358,615.5 358,615.5 C358,615.5 372.5,615.5 372.5,605.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="353.5" y="632.4951">b</text></g><!--MD5=[69d013f1df90d884c55285d0786c0ab2]
+entity op3--><g id="elem_op3"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="159" y="595"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="289" y="600"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="287" y="602"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="287" y="606"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="174" y="627.9951">OldProcessing()</text></g><!--MD5=[1593ad41877cb596c6f3e33118884035]
+entity np3--><g id="elem_np3"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="147.5" y="489"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="284.5" y="494"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="282.5" y="496"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="282.5" y="500"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="162.5" y="521.9951">NewProcessing()</text></g><!--MD5=[271a946153eabc1495ee7e2445644215]
+entity a4--><g id="elem_a4"><path d="M101,848.5 C101,838.5 115,838.5 115,838.5 C115,838.5 129,838.5 129,848.5 L129,873.7969 C129,883.7969 115,883.7969 115,883.7969 C115,883.7969 101,883.7969 101,873.7969 L101,848.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M101,848.5 C101,858.5 115,858.5 115,858.5 C115,858.5 129,858.5 129,848.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="111" y="875.4951">a</text></g><!--MD5=[1ce960fb38560755b862e8efbf4a4ac4]
+entity b4--><g id="elem_b4"><path d="M348.5,848.5 C348.5,838.5 363,838.5 363,838.5 C363,838.5 377.5,838.5 377.5,848.5 L377.5,873.7969 C377.5,883.7969 363,883.7969 363,883.7969 C363,883.7969 348.5,883.7969 348.5,873.7969 L348.5,848.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M348.5,848.5 C348.5,858.5 363,858.5 363,858.5 C363,858.5 377.5,858.5 377.5,848.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="358.5" y="875.4951">b</text></g><!--MD5=[c571e6fdc9504ba41c7568f41c8340ef]
+entity op4--><g id="elem_op4"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="164" y="838"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="294" y="843"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="292" y="845"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="292" y="849"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="179" y="870.9951">OldProcessing()</text></g><!--MD5=[9cbfb8998ce280c9ece05290497156fd]
+entity np4--><g id="elem_np4"><rect fill="#B0C4DE" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="155.5" y="732"/><rect fill="#B0C4DE" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="292.5" y="737"/><rect fill="#B0C4DE" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="290.5" y="739"/><rect fill="#B0C4DE" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="290.5" y="743"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="170.5" y="764.9951">NewProcessing()</text></g><!--MD5=[cd79c22466dba43b02dd713e66f87bf6]
+entity a5--><g id="elem_a5"><path d="M97,985.5 C97,975.5 111,975.5 111,975.5 C111,975.5 125,975.5 125,985.5 L125,1010.7969 C125,1020.7969 111,1020.7969 111,1020.7969 C111,1020.7969 97,1020.7969 97,1010.7969 L97,985.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M97,985.5 C97,995.5 111,995.5 111,995.5 C111,995.5 125,995.5 125,985.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="107" y="1012.4951">a</text></g><!--MD5=[2a8c0f8b3c228d0be80896e8f45c28b0]
+entity b5--><g id="elem_b5"><path d="M352.5,985.5 C352.5,975.5 367,975.5 367,975.5 C367,975.5 381.5,975.5 381.5,985.5 L381.5,1010.7969 C381.5,1020.7969 367,1020.7969 367,1020.7969 C367,1020.7969 352.5,1020.7969 352.5,1010.7969 L352.5,985.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M352.5,985.5 C352.5,995.5 367,995.5 367,995.5 C367,995.5 381.5,995.5 381.5,985.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="362.5" y="1012.4951">b</text></g><!--MD5=[135ae4d1ae591684c02e8da30ed6e346]
+entity op5--><g id="elem_op5"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="118" y="1081"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="248" y="1086"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="246" y="1088"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="246" y="1092"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="133" y="1113.9951">OldProcessing()</text></g><!--MD5=[5e9d7e38a85b5359152f7cc9ee0a1740]
+entity np5--><g id="elem_np5"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="160.5" y="975"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="297.5" y="980"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="295.5" y="982"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="295.5" y="986"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="175.5" y="1007.9951">NewProcessing()</text></g><!--MD5=[19a28bd249ddd063ea557d301ede702c]
+entity a6--><g id="elem_a6"><path d="M72,1268.5 C72,1258.5 86,1258.5 86,1258.5 C86,1258.5 100,1258.5 100,1268.5 L100,1293.7969 C100,1303.7969 86,1303.7969 86,1303.7969 C86,1303.7969 72,1303.7969 72,1293.7969 L72,1268.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M72,1268.5 C72,1278.5 86,1278.5 86,1278.5 C86,1278.5 100,1278.5 100,1268.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="82" y="1295.4951">a</text></g><!--MD5=[a77eeca02088215ee6f6daab415a21a2]
+entity b6--><g id="elem_b6"><path d="M327.5,1268.5 C327.5,1258.5 342,1258.5 342,1258.5 C342,1258.5 356.5,1258.5 356.5,1268.5 L356.5,1293.7969 C356.5,1303.7969 342,1303.7969 342,1303.7969 C342,1303.7969 327.5,1303.7969 327.5,1293.7969 L327.5,1268.5 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M327.5,1268.5 C327.5,1278.5 342,1278.5 342,1278.5 C342,1278.5 356.5,1278.5 356.5,1268.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="337.5" y="1295.4951">b</text></g><!--MD5=[bcecd81b471c2620f1f9ff05f2ff4966]
+entity np6--><g id="elem_np6"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="135.5" y="1258"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="272.5" y="1263"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="270.5" y="1265"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="270.5" y="1269"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="150.5" y="1290.9951">NewProcessing()</text></g><!--MD5=[6c0d130fe43bc225d3d2b838d8047a4e]
+link a1 to op1--><g id="link_a1_op1"><path d="M97.05,73 C106.92,73 116.8,73 126.67,73 " fill="none" id="a1-to-op1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="131.84,73,122.84,69,126.84,73,122.84,77,131.84,73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0db143ac14658d8fdcff7e66ce77005b]
+link op1 to b1--><g id="link_op1_b1"><path d="M282.08,73 C291.84,73 301.61,73 311.37,73 " fill="none" id="op1-to-b1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="316.48,73,307.48,69,311.48,73,307.48,77,316.48,73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[13f2f0a2478164edb69e23c7c55c02c6]
+link a2 to op2--><g id="link_a2_op2"><path d="M116.05,375 C125.92,375 135.8,375 145.67,375 " fill="none" id="a2-to-op2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="150.84,375,141.84,371,145.84,375,141.84,379,150.84,375" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c92e50e302016fb8f6db73d056be8dd7]
+link op2 to b2--><g id="link_op2_b2"><path d="M301.08,375 C310.84,375 320.61,375 330.37,375 " fill="none" id="op2-to-b2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="335.48,375,326.48,371,330.48,375,326.48,379,335.48,375" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e88f2c795c67c75c833212cd02e39e61]
+reverse link np2 to a2--><g id="link_np2_a2"><path d="M169.64,295.84 C152.85,315.23 130.39,341.19 116.06,357.76 " fill="none" id="np2-backto-a2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="172.91,292.06,163.9911,296.2376,169.6337,295.837,170.0343,301.4797,172.91,292.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6324e76c14c0c75d25e2c274ab597325]
+link a3 to op3--><g id="link_a3_op3"><path d="M124.05,618 C133.92,618 143.8,618 153.67,618 " fill="none" id="a3-to-op3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="158.84,618,149.84,614,153.84,618,149.84,622,158.84,618" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[30d000292285c8c73fd8c89382e390d0]
+link op3 to b3--><g id="link_op3_b3"><path d="M309.08,618 C318.84,618 328.61,618 338.37,618 " fill="none" id="op3-to-b3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="343.48,618,334.48,614,338.48,618,334.48,622,343.48,618" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ad24c917beb752e195340a09def400a5]
+reverse link np3 to a3--><g id="link_np3_a3"><path d="M197.44,538.6 C174.11,559.52 142.13,588.2 124.01,604.44 " fill="none" id="np3-backto-a3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="201.4,535.06,192.0223,538.0697,197.6701,538.3898,197.3499,544.0376,201.4,535.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[370caf09c508e4e72d60d0324f38ac6a]
+reverse link np3 to op3--><g id="link_np3_op3"><path d="M228.09,540.19 C229.4,557.26 231.08,578.99 232.31,594.98 " fill="none" id="np3-backto-op3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="227.7,535.06,224.4061,544.3417,228.0857,540.0451,232.3823,543.7247,227.7,535.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[44318be85cb8c2df6cb9b1fa8a0dcd89]
+link a4 to op4--><g id="link_a4_op4"><path d="M129.05,861 C138.92,861 148.8,861 158.67,861 " fill="none" id="a4-to-op4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="163.84,861,154.84,857,158.84,861,154.84,865,163.84,861" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b497573fe65ca74cc752340d2101240e]
+link op4 to b4--><g id="link_op4_b4"><path d="M314.08,861 C323.84,861 333.61,861 343.37,861 " fill="none" id="op4-to-b4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="348.48,861,339.48,857,343.48,861,339.48,865,348.48,861" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[14eb60bee747c287758da3a8c0a5b8db]
+reverse link np4 to a4--><g id="link_np4_a4"><path d="M204.98,781.36 C180.88,802.43 147.64,831.48 129.04,847.73 " fill="none" id="np4-backto-a4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="208.76,778.06,199.352,780.9737,204.9962,781.3515,204.6184,786.9957,208.76,778.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[52b82a77b6e23c627ee3d4e5739c3593]
+link np4 to op4--><g id="link_np4_op4"><path d="M235.31,783.19 C236.04,798.53 236.96,817.62 237.7,832.94 " fill="none" id="np4-op4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="237.94,837.98,241.4987,828.7965,237.6974,832.9859,233.5081,829.1847,237.94,837.98" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="235.06,778.06,231.4752,787.2333,235.2883,783.0548,239.4668,786.8679,235.06,778.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e17c3027d8265badc3bf7f67a81e72f6]
+link a5 to np5--><g id="link_a5_np5"><path d="M125,998 C134.99,998 144.97,998 154.96,998 " fill="none" id="a5-to-np5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="160.18,998,151.18,994,155.18,998,151.18,1002,160.18,998" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[69f8c48e741ae8f4072093f8f2c9be95]
+link np5 to b5--><g id="link_np5_b5"><path d="M318,998 C327.78,998 337.56,998 347.34,998 " fill="none" id="np5-to-b5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="352.45,998,343.45,994,347.45,998,343.45,1002,352.45,998" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ca17dbff91d71af3326e033c526b6484]
+link a5 to op5--><g id="link_a5_op5"><path d="M125.28,1017.12 C138.25,1033.56 157.54,1058.02 172.21,1076.64 " fill="none" id="a5-to-op5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="175.46,1080.75,173.025,1071.2069,172.3627,1076.8249,166.7448,1076.1626,175.46,1080.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[45cf9b4787e9ab7004cc0f89255e0318]
+link a6 to np6--><g id="link_a6_np6"><path d="M100,1281 C109.99,1281 119.97,1281 129.96,1281 " fill="none" id="a6-to-np6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="135.18,1281,126.18,1277,130.18,1281,126.18,1285,135.18,1281" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[098ef5c1dbdcc67703284848b2eba984]
+link np6 to b6--><g id="link_np6_b6"><path d="M293,1281 C302.78,1281 312.56,1281 322.34,1281 " fill="none" id="np6-to-b6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="327.45,1281,318.45,1277,322.45,1281,318.45,1285,327.45,1281" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4751c75b3fa6fa9dce1e7006e5d3e893]
+link op1 to np2--><!--MD5=[f335ba1953ae0efde15265ec969d60c5]
+link op2 to np3--><!--MD5=[332f03dd18d564119f4630b302677325]
+link op3 to np4--><!--MD5=[a428108653412b546eaba25385932f82]
+link op4 to np5--><!--MD5=[b8eab6257bd8dd439e7f398589a3d9a3]
+link op5 to np6--><!--MD5=[d077887d53ded09ce69bd222ebbe95e1]
+link s1 to s2--><g id="link_s1_s2"><path d="M41.1903,120.4853 C41.979,125.5852 42.8077,130.9435 43.663,136.474 C45.3736,147.5349 47.1906,159.2847 49.0075,171.0338 C50.8244,182.7828 52.6411,194.5312 54.3511,205.5893 C54.7785,208.3539 55.1994,211.0753 55.6118,213.7427 C55.715,214.4096 55.8176,215.0731 55.9196,215.7331 C55.9451,215.8981 55.9706,216.0628 55.996,216.2274 " fill="none" id="s1-to-s2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="55.996,216.2274,58.5737,206.7218,55.232,211.2861,50.6677,207.9444,55.996,216.2274" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[22a8376812623aec17d21f0ef867854e]
+link s5 to s6--><g id="link_s5_s6"><path d="M403.3439,1152.4616 C402.9607,1156.7675 402.5791,1161.057 402.2003,1165.3138 C401.4428,1173.8273 400.6969,1182.2099 399.9743,1190.3306 C399.2517,1198.4513 398.5525,1206.3101 397.8882,1213.7763 C397.8674,1214.0096 397.8467,1214.2425 397.826,1214.4751 C397.8156,1214.5913 397.8053,1214.7075 397.795,1214.8236 C397.7898,1214.8816 397.7847,1214.9396 397.7795,1214.9976 " fill="none" id="s5-to-s6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="397.7795,1214.9976,402.5614,1206.3875,398.2226,1210.0173,394.5929,1205.6785,397.7795,1214.9976" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="none" height="23.2813" style="stroke:none;stroke-width:1.0;" width="167" x="143" y="1333"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="65" x="168" y="1342.2822">Replacing()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="46" x="236" y="1342.2822">Overview</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="143" y="1353.9229">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[5435d26b1e738ca16c07274e238f312c]
+@startuml
+
+' top to bottom direction
+
+component "1. Existing() old process" as s1 {
+  database "a" as a1
+  database "b" as b1
+  component "OldProcessing()" as op1
+  
+  a1 -> op1
+  op1 -> b1
+}
+
+component "Replacing()" as rp {
+
+component "2. Creating() new process" as s2 {
+  database "a" as a2
+  database "b" as b2
+  component "OldProcessing()" as op2
+  component "NewProcessing()" as np2
+  
+  a2 -> op2
+  op2 -> b2
+  
+  a2 -u-> np2
+}
+
+component "3. Copying() old process" as s3 {
+  database "a" as a3
+  database "b" as b3
+  component "OldProcessing()" as op3
+  component "NewProcessing()" as np3
+  
+  a3 -> op3
+  op3 -> b3
+  
+  a3 -u-> np3
+  op3 -u-> np3
+}
+
+component "4. Improving() new process until it's Dominating()\nby Comparing()" as s4 {
+  database "a" as a4
+  database "b" as b4
+  component "OldProcessing()" as op4
+  component "NewProcessing()" as np4 #LightSteelBlue
+  
+  a4 -> op4
+  op4 -> b4
+  
+  a4 -u-> np4
+  op4 <-u-> np4
+}
+
+component "5. Switching() to new process" as s5 {
+  database "a" as a5
+  database "b" as b5
+  component "OldProcessing()" as op5
+  component "NewProcessing()" as np5
+  
+  a5 -> np5
+  np5 -> b5
+  
+  a5 -d-> op5
+}
+
+}
+
+component "6. Deleting() old process" as s6 {
+  database "a" as a6
+  database "b" as b6
+  component "NewProcessing()" as np6
+  
+  a6 -> np6
+  np6 -> b6
+}
+
+op1 -[hidden]d- np2
+op2 -[hidden]d- np3
+op3 -[hidden]d- np4
+op4 -[hidden]d- np5
+op5 -[hidden]d- np6
+
+s1 -d-> s2
+s5 -d-> s6
+
+footer **Replacing()** Overview \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+@startuml
+
+
+component "1. Existing() old process" as s1 {
+  database "a" as a1
+  database "b" as b1
+  component "OldProcessing()" as op1
+  
+  a1 -> op1
+  op1 -> b1
+}
+
+component "Replacing()" as rp {
+
+component "2. Creating() new process" as s2 {
+  database "a" as a2
+  database "b" as b2
+  component "OldProcessing()" as op2
+  component "NewProcessing()" as np2
+  
+  a2 -> op2
+  op2 -> b2
+  
+  a2 -u-> np2
+}
+
+component "3. Copying() old process" as s3 {
+  database "a" as a3
+  database "b" as b3
+  component "OldProcessing()" as op3
+  component "NewProcessing()" as np3
+  
+  a3 -> op3
+  op3 -> b3
+  
+  a3 -u-> np3
+  op3 -u-> np3
+}
+
+component "4. Improving() new process until it's Dominating()\nby Comparing()" as s4 {
+  database "a" as a4
+  database "b" as b4
+  component "OldProcessing()" as op4
+  component "NewProcessing()" as np4 #LightSteelBlue
+  
+  a4 -> op4
+  op4 -> b4
+  
+  a4 -u-> np4
+  op4 <-u-> np4
+}
+
+component "5. Switching() to new process" as s5 {
+  database "a" as a5
+  database "b" as b5
+  component "OldProcessing()" as op5
+  component "NewProcessing()" as np5
+  
+  a5 -> np5
+  np5 -> b5
+  
+  a5 -d-> op5
+}
+
+}
+
+component "6. Deleting() old process" as s6 {
+  database "a" as a6
+  database "b" as b6
+  component "NewProcessing()" as np6
+  
+  a6 -> np6
+  np6 -> b6
+}
+
+op1 -[hidden]d- np2
+op2 -[hidden]d- np3
+op3 -[hidden]d- np4
+op4 -[hidden]d- np5
+op5 -[hidden]d- np6
+
+s1 -d-> s2
+s5 -d-> s6
+
+footer **Replacing()** Overview \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
