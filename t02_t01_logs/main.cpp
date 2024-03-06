@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Supervising *pApp = NULL;
+Processing *pApp = NULL;
 
 int main(int argc, char *argv[])
 {

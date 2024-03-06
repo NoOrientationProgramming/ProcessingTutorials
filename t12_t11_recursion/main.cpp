@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Supervising *pApp = NULL;
+Processing *pApp = NULL;
 
 void applicationCloseRequested(int signum)
 {
