@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="836px" preserveAspectRatio="none" style="width:671px;height:836px;background:#FFFFFF;" version="1.1" viewBox="0 0 671 836" width="671px" zoomAndPan="magnify"><defs/><g><!--MD5=[b7b14e8444e3c5d78ccf181a2614e889]
+cluster pc--><g id="cluster_pc"><rect fill="none" height="328" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="519" x="127" y="472"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="626" y="477"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="624" y="479"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="624" y="483"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="21" x="376" y="497.9951">PC</text></g><!--MD5=[db06ea8485f93a7679d8389fc74e10fc]
+cluster cnvt--><g id="cluster_cnvt"><rect fill="none" height="146" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="426" x="7" y="277"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="413" y="282"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="411" y="284"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="411" y="288"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="96" y="302.9951">Interface Conversion Hardware</text></g><!--MD5=[ac17ae8266a18fcefaa0ab1703f331fa]
+cluster trg--><g id="cluster_trg"><rect fill="none" height="221" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="479" x="186" y="7"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="645" y="12"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="643" y="14"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="643" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="196" x="327.5" y="32.9951">Target STM32 with UART</text></g><!--MD5=[5f97cdfbafef6a5cbddfbf6bdd3803d1]
+entity gw--><g id="elem_gw"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="151" x="269.5" y="515.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="400.5" y="520.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="398.5" y="522.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="398.5" y="526.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="284.5" y="548.4951">Python Gateway</text></g><!--MD5=[30ba7fb1050e29c0f3290b9e87c281e8]
+entity log--><g id="elem_log"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="143.5" y="631"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="242.5" y="636"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="240.5" y="638"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="240.5" y="642"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="158.5" y="663.9951">Service Log</text></g><!--MD5=[f04bcface800b3498ac77214835b90cd]
+entity cmd--><g id="elem_cmd"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="297.5" y="631"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="442.5" y="636"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="440.5" y="638"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="440.5" y="642"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="312.5" y="663.9951">Service Command</text></g><!--MD5=[2d3a5dca07f2dc2995b083b822c2fe99]
+entity tree--><g id="elem_tree"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="498" y="631"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="610" y="636"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="608" y="638"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="608" y="642"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="513" y="663.9951">Process Tree</text></g><!--MD5=[f52e25d223c82e33409769c01e345908]
+entity clt1--><g id="elem_clt1"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="146" y="738"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="218" y="743"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="216" y="745"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="216" y="749"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="161" y="770.9951">Client 1</text></g><!--MD5=[59b074b7c7cee665a20082138c2c5e65]
+entity clt2--><g id="elem_clt2"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="273" y="738"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="345" y="743"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="343" y="745"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="343" y="749"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="288" y="770.9951">Client 2</text></g><!--MD5=[1983b3dc8160a4f1776be187275e3e85]
+entity dbgPc--><g id="elem_dbgPc"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174" x="456" y="507"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="610" y="512"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="608" y="514"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="608" y="518"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="471" y="539.9951">Programmer and</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="471" y="556.292">Debugger Software</text></g><!--MD5=[e51d2e02d70911ef9d671566a8825650]
+entity cnvt1--><g id="elem_cnvt1"><rect fill="#F1F1F1" height="95.1875" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="180" x="23" y="312"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="183" y="317"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="181" y="319"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="181" y="323"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="38" y="344.9951">Optional</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="38" y="361.292">Converter from</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="38" y="377.5889">Single Wire Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="38" y="393.8857">to UART</text></g><!--MD5=[c6edfa9ed2ec04a7f01498661d01e1dd]
+entity cnvt2--><g id="elem_cnvt2"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="273.5" y="328"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="396.5" y="333"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.5" y="335"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.5" y="339"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="288.5" y="360.9951">Converter from</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="288.5" y="377.292">UART to USB</text></g><!--MD5=[e52efcc15520919272a02ca3c9e88b46]
+entity dbg--><g id="elem_dbg"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="213" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="371" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="369" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="369" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="228" y="74.9951">SystemDebugging()</text></g><!--MD5=[0d26103f6ae4a398ce4e5526135633f0]
+entity swt--><g id="elem_swt"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="200" x="202" y="157.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="382" y="162.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="380" y="164.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="380" y="168.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="217" y="190.4951">SingleWireTransfering()</text></g><!--MD5=[923757b58457165c7417655251d014c6]
+entity segInt--><g id="elem_segInt"><rect fill="#F1F1F1" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="211" x="437.5" y="149"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="628.5" y="154"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="626.5" y="156"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="626.5" y="160"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="452.5" y="181.9951">Programming and</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="452.5" y="198.292">Debug Hardware Module</text></g><!--MD5=[15155ec5d864f934b0594c432216c008]
+entity seg--><g id="elem_seg"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="481" y="336.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="585" y="341.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="583" y="343.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="583" y="347.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="496" y="369.4951">Segger JLink</text></g><!--MD5=[ab6de111d6336e08ef235f4278402e74]
+link dbg to swt--><g id="link_dbg_swt"><path d="M302,93.25 C302,111.05 302,134.21 302,152.05 " fill="none" id="dbg-swt" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302,157.4,306,148.4,302,152.4,298,148.4,302,157.4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302,88.15,298,97.15,302,93.15,306,97.15,302,88.15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d4c7ad5e79607a9f2b24acf1ec5a1467]
+link gw to dbgPc--><!--MD5=[b577651ec78aaa80747e60e73d4db845]
+link swt to segInt--><!--MD5=[91b4fe4f8d785c8a0476d1338f5d12d4]
+link swt to cnvt1--><g id="link_swt_cnvt1"><path d="M274.62,207.14 C246.44,233.53 201.81,275.33 166.58,308.32 " fill="none" id="swt-cnvt1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="162.77,311.89,172.072,308.6539,166.4181,308.4708,166.6013,302.8169,162.77,311.89" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="278.45,203.56,269.148,206.7961,274.8019,206.9792,274.6187,212.6331,278.45,203.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="231" y="257.0669">Single Wire</text></g><!--MD5=[eb46a0d7354e43d888860593a57af484]
+link swt to cnvt2--><g id="link_swt_cnvt2"><path d="M308.57,208.53 C316.01,239.16 328.17,289.2 336.37,322.97 " fill="none" id="swt-cnvt2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="337.55,327.83,339.3015,318.1381,336.3642,322.9726,331.5297,320.0354,337.55,327.83" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="307.36,203.56,305.6085,213.2519,308.5458,208.4174,313.3803,211.3546,307.36,203.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="321" y="257.0669">UART</text></g><!--MD5=[e595489f629402abb9e4c7564b5b093a]
+link cnvt1 to cnvt2--><g id="link_cnvt1_cnvt2"><path d="M208.24,359.5 C228.13,359.5 248.87,359.5 268,359.5 " fill="none" id="cnvt1-cnvt2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="273.35,359.5,264.35,355.5,268.35,359.5,264.35,363.5,273.35,359.5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="203.03,359.5,212.03,363.5,208.03,359.5,212.03,355.5,203.03,359.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="221.25" y="352.5669">UART</text></g><!--MD5=[d86fa868ca56a9f883dfbbc1f0d3c502]
+link cnvt2 to gw--><g id="link_cnvt2_gw"><path d="M345,396.46 C345,430.16 345,479.79 345,510.31 " fill="none" id="cnvt2-gw" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="345,515.41,349,506.41,345,510.41,341,506.41,345,515.41" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="345,391.33,341,400.33,345,396.33,349,400.33,345,391.33" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="346" y="452.0669">USB</text></g><!--MD5=[e777db090401823c4530b12cdce241b3]
+link segInt to seg--><g id="link_segInt_seg"><path d="M543,217.46 C543,251.16 543,300.79 543,331.31 " fill="none" id="segInt-seg" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="543,336.41,547,327.41,543,331.41,539,327.41,543,336.41" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="543,212.33,539,221.33,543,217.33,547,221.33,543,212.33" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="544" y="257.0669">J-Link</text></g><!--MD5=[6456e48545a8235f0e83f22328601c70]
+link seg to dbgPc--><g id="link_seg_dbgPc"><path d="M543,387.93 C543,418.47 543,467.96 543,501.58 " fill="none" id="seg-dbgPc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="543,506.83,547,497.83,543,501.83,539,497.83,543,506.83" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="543,382.56,539,391.56,543,387.56,547,391.56,543,382.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="544" y="452.0669">USB</text></g><!--MD5=[52ebea5a470fc99563748800d815eebe]
+link gw to log--><g id="link_gw_log"><path d="M317.28,561.65 C293.63,580.56 259.62,607.75 234.85,627.54 " fill="none" id="gw-to-log" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="230.65,630.9,240.1833,628.4267,234.5627,627.787,235.2024,622.1664,230.65,630.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[deee9649c69160a9137d4d970012c978]
+link gw to cmd--><g id="link_gw_cmd"><path d="M353.33,566.5 C358.87,584.48 366.13,608.01 371.67,625.99 " fill="none" id="gw-cmd" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="373.19,630.9,374.3602,621.1209,371.7166,626.122,366.7154,623.4784,373.19,630.9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="351.83,561.65,350.6516,571.4281,353.2994,566.4292,358.2983,569.077,351.83,561.65" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd4cbd645260b7aa24277294430a7ed7]
+link gw to tree--><g id="link_gw_tree"><path d="M387.49,561.52 C424.54,580.72 478.23,608.55 516.65,628.46 " fill="none" id="gw-to-tree" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="521.26,630.85,515.1064,623.1602,516.8197,628.5513,511.4286,630.2646,521.26,630.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7d7aac495d04fa889efddf75b7c31d16]
+link log to clt1--><g id="link_log_clt1"><path d="M200.69,677.01 C199,693.14 196.7,715.15 194.89,732.45 " fill="none" id="log-to-clt1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="194.34,737.66,199.2691,729.1333,194.8686,732.688,191.314,728.2875,194.34,737.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c74b56b7e2e50e3893555fe42d203abb]
+link log to clt2--><g id="link_log_clt2"><path d="M227.32,677.01 C245.75,693.7 271.14,716.68 290.52,734.22 " fill="none" id="log-to-clt2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="294.32,737.66,290.3253,728.6576,290.6106,734.3073,284.961,734.5926,294.32,737.66" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="none" height="23.2813" style="stroke:none;stroke-width:1.0;" width="333" x="162" y="805"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="71" x="162" y="814.2822">Processing()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="256" x="236" y="814.2822">STM32 Targets with UART as communication channel</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="245" y="825.9229">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[bcafa2ed9be6898e1a228b8bd2307549]
+@startuml
+
+' skinparam linetype ortho
+
+component PC as pc {
+  component "Python Gateway" as gw
+  
+  component "Service Log" as log
+  component "Service Command" as cmd
+  component "Process Tree" as tree
+  
+  component "Client 1" as clt1
+  component "Client 2" as clt2
+  
+  component "Programmer and\nDebugger Software" as dbgPc
+}
+
+component "Interface Conversion Hardware" as cnvt {
+  component "Optional\nConverter from\nSingle Wire Interface\nto UART" as cnvt1
+  component "Converter from\nUART to USB" as cnvt2
+}
+
+component "Segger JLink" as seg
+
+component "Target STM32 with UART" as trg {
+  component "SystemDebugging()" as dbg
+  component "SingleWireTransfering()" as swt
+  component "Programming and\nDebug Hardware Module" as segInt
+}
+
+dbg <- -> swt
+
+gw -[hidden]r- dbgPc
+
+swt -[hidden]r- segInt
+
+swt <- -> cnvt1 : Single Wire
+swt <- -> cnvt2 : UART
+
+cnvt1 <-> cnvt2 : UART
+cnvt2 <- -> gw : USB
+
+segInt <- -> seg : J-Link
+
+seg <- -> dbgPc : USB
+
+gw - -> log
+gw <- -> cmd
+gw - -> tree
+
+log - -> clt1
+log - -> clt2
+
+footer **Processing()** STM32 Targets with UART as communication channel \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+@startuml
+
+
+component PC as pc {
+  component "Python Gateway" as gw
+  
+  component "Service Log" as log
+  component "Service Command" as cmd
+  component "Process Tree" as tree
+  
+  component "Client 1" as clt1
+  component "Client 2" as clt2
+  
+  component "Programmer and\nDebugger Software" as dbgPc
+}
+
+component "Interface Conversion Hardware" as cnvt {
+  component "Optional\nConverter from\nSingle Wire Interface\nto UART" as cnvt1
+  component "Converter from\nUART to USB" as cnvt2
+}
+
+component "Segger JLink" as seg
+
+component "Target STM32 with UART" as trg {
+  component "SystemDebugging()" as dbg
+  component "SingleWireTransfering()" as swt
+  component "Programming and\nDebug Hardware Module" as segInt
+}
+
+dbg <- -> swt
+
+gw -[hidden]r- dbgPc
+
+swt -[hidden]r- segInt
+
+swt <- -> cnvt1 : Single Wire
+swt <- -> cnvt2 : UART
+
+cnvt1 <-> cnvt2 : UART
+cnvt2 <- -> gw : USB
+
+segInt <- -> seg : J-Link
+
+seg <- -> dbgPc : USB
+
+gw - -> log
+gw <- -> cmd
+gw - -> tree
+
+log - -> clt1
+log - -> clt2
+
+footer **Processing()** STM32 Targets with UART as communication channel \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
