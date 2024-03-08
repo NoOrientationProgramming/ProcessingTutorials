@@ -1,7 +1,7 @@
 
 @startuml
 
-skinparam linetype ortho
+' skinparam linetype ortho
 skinparam minClassWidth 180
 
 skinparam nodesep 80
@@ -31,15 +31,15 @@ class "y = p2(x, t)" as proc2 {}
 class "y = f1(x)" as func1 {}
 class "y = f2(x)" as func2 {}
 
-proc "1" o-u- "0..*" proc : "Recursion\nOrder 1"
-func "1" o-u- "0..*" func : "Recursion\nOrder 1"
+proc "1" o-d- "0..*" proc : "Recursion\nOrder 1"
+func "1" o-d- "0..*" func : "Recursion\nOrder 1"
 proc "1" o-d- "0..*" func
-proc <|-l- proc1
-proc <|-r- proc2
-func <|-l- func1
-func <|-r- func2
-proc2 "1" o-u- "0..*" proc2 : "Recursion\nOrder 2"
-func2 "1" o-u- "0..*" func2 : "Recursion\nOrder 2"
+proc <|-d- proc1
+proc <|-d- proc2
+func <|-d- func2
+func <|-d- func1
+proc2 "1" o-d- "0..*" proc2 : "Recursion\nOrder 2"
+func2 "1" o-d- "0..*" func2 : "Recursion\nOrder 2"
 
 footer **Recursion** Orders \n(C) DSP-Crowd Electronics GmbH
 
