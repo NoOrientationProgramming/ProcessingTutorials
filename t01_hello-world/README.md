@@ -80,7 +80,7 @@ This line is optional. You can omit this line if you want. Just remember to writ
 
 With the next line
 ```cpp
-Supervising *pApp = NULL;
+Processing *pApp = NULL;
 ```
 we create a variable which is located in the initialized data section of our program.
 This variable will contain the address (pointer) to our root process.
