@@ -1,0 +1,24 @@
+@startuml
+
+skinparam linetype ortho
+skinparam minClassWidth 200
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+abstract class Processing {
+	--
+}
+
+class Verb_ing < Present Participle > {
+}
+
+Processing "1" o-u- "0..*" Processing
+Processing <|-- Verb_ing
+
+footer **Processing()** Class Diagram - Abstract \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

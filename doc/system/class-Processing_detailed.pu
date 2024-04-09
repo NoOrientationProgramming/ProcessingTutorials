@@ -1,0 +1,93 @@
+@startuml
+
+skinparam linetype ortho
+skinparam minClassWidth 600
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+abstract class Processing {
+	+void tickTree()
+	+bool progress() const
+	+Success success() const
+	+void unusedSet()
+	+void procTreeDisplaySet(bool display)
+	+bool initDone() const
+	+bool processDone() const
+	+bool shutdownDone() const
+	+int processTreeStr(char *pBuf, char *pBufEnd, bool detailed = true, bool colored = false)
+	+{static} void undrivenSet(Processing *pChild)
+	+{static} void destroy(Processing *pChild)
+	+{static} void applicationClose()
+	+{static} void globalDestructorRegister(GlobDestructorFunc globDestr)
+	+{static} const char *strrchr(const char *x, char y)
+	+{static} void *memcpy(void *to, const void *from, size_t cnt)
+	+{static} void showAddressInIdSet(uint8_t val)
+	+{static} void disableTreeDefaultSet(uint8_t val)
+	--
+	#Processing(const char *name)
+	#{abstract} ~Processing()
+	#const char *procName() const
+	#Processing *start(Processing *pChild, DriverMode driver = DrivenByParent)
+	#Processing *cancel(Processing *pChild)
+	#Processing *repel(Processing *pChild)
+	#Processing *whenFinishedRepel(Processing *pChild)
+	#{abstract} Success initialize()
+	#{abstract} Success process() = 0
+	#{abstract} Success shutdown()
+	#{abstract} void processInfo(char *pBuf, char *pBufEnd)
+	#{abstract} size_t processTrace(char *pBuf, char *pBufEnd)
+	#Success childrenSuccess()
+	#size_t mncpy(void *dest, size_t destSize, const void *src, size_t srcSize)
+	#DriverMode driver() const
+	#uint8_t levelDriver() const
+	#{static} int procId(char *pBuf, char *pBufEnd, const Processing *pProc)
+	#{static} int progressStr(char *pBuf, char *pBufEnd, const int val, const int maxVal)
+	#uint8_t mState
+	#uint8_t mStateOld
+	--
+	-Processing()
+	-Processing(const Processing &)
+	-Processing &operator=(const Processing &)
+	-const char *mName
+	-list<Processing *> mChildList
+	-mutex mChildListMtx
+	-thread *mpThread
+	-Success mSuccess
+	-uint16_t mNumChildren
+	-uint8_t mStateAbstract
+	-DriverMode mDriver
+	-uint8_t mStatParent
+	-uint8_t mStatDrv
+	-uint8_t mLevelTree
+	-uint8_t mLevelDriver
+	-{static} void parentalDrive(Processing *pChild)
+	-{static} void internalDrive(Processing *pChild)
+	-{static} uint8_t showAddressInId
+	-{static} uint8_t disableTreeDefault
+	-{static} list<GlobDestructorFunc> globalDestructors
+}
+
+class Verb_ing < Present Participle > {
+	+{static} Verb_ing *create()
+	--
+	#Verb_ing()
+	#{abstract} ~Verb_ing()
+	--
+	-Verb_ing(const Verb_ing &) : Processing("")
+	-Verb_ing &operator=(const Verb_ing &)
+	-Success initialize()
+	-Success process()
+	-Success shutdown()
+	-void processInfo(char *pBuf, char *pBufEnd)
+}
+
+Processing "1" o-u- "0..*" Processing
+Processing <|-- Verb_ing
+
+footer **Processing()** Class Diagram - Detailed \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
