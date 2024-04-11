@@ -26,6 +26,11 @@ abstract class Processing {
 	+{static} void *memcpy(void *to, const void *from, size_t cnt)
 	+{static} void showAddressInIdSet(uint8_t val)
 	+{static} void disableTreeDefaultSet(uint8_t val)
+	+{static} void sleepUsInternalDriveSet(size_t delayUs)
+	+{static} void sleepInternalDriveSet(chrono::microseconds delay)
+	+{static} void sleepInternalDriveSet(chrono::milliseconds delay)
+	+{static} void numBurstInternalDriveSet(size_t numBurst)
+	+{static} void funcInternalDriveSet(InternalDriverFunc pFct)
 	--
 	#Processing(const char *name)
 	#{abstract} ~Processing()
@@ -65,6 +70,9 @@ abstract class Processing {
 	-uint8_t mLevelDriver
 	-{static} void parentalDrive(Processing *pChild)
 	-{static} void internalDrive(Processing *pChild)
+	-{static} size_t sleepInternalDriveUs
+	-{static} size_t numBurstInternalDrive
+	-{static} InternalDriverFunc pFctInternalDrive
 	-{static} uint8_t showAddressInId
 	-{static} uint8_t disableTreeDefault
 	-{static} list<GlobDestructorFunc> globalDestructors
