@@ -1,0 +1,23 @@
+
+@startuml
+
+' skinparam linetype ortho
+
+component "TcpListening()" as lst
+
+database "Socket\nIPv4 and/or\nIPv6" as s4
+database "Socket\nIPv6" as s6
+database "Port 3000" as p4
+database "Port 3001" as p6
+
+lst --> s4
+lst --> s6
+
+s4 --> p4
+s6 --> p6
+s6 ..> p4
+
+footer **TcpListening()** Sockets - IPv4 / IPv6 \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

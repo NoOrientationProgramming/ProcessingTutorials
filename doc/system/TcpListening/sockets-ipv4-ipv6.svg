@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:238px;height:343px;background:#FFFFFF;" version="1.1" viewBox="0 0 238 343" width="238px" zoomAndPan="magnify"><defs/><g><!--MD5=[59b54eeaa08804a9d6536120cd8301f0]
+entity lst--><g id="elem_lst"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="44.5" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="162.5" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="160.5" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="160.5" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="59.5" y="39.9951">TcpListening()</text></g><!--MD5=[90d1518ef6c59d54675a29bb07715151]
+entity s4--><g id="elem_s4"><path d="M6,123 C6,113 54.5,113 54.5,113 C54.5,113 103,113 103,123 L103,180.8906 C103,190.8906 54.5,190.8906 54.5,190.8906 C54.5,190.8906 6,190.8906 6,180.8906 L6,123 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M6,123 C6,133 54.5,133 54.5,133 C54.5,133 103,133 103,123 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="16" y="149.9951">Socket</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="16" y="166.292">IPv4 and/or</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="16" y="182.5889">IPv6</text></g><!--MD5=[5186f267262639da52129a7299f5b5b2]
+entity s6--><g id="elem_s6"><path d="M138.5,131 C138.5,121 172.5,121 172.5,121 C172.5,121 206.5,121 206.5,131 L206.5,172.5938 C206.5,182.5938 172.5,182.5938 172.5,182.5938 C172.5,182.5938 138.5,182.5938 138.5,172.5938 L138.5,131 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M138.5,131 C138.5,141 172.5,141 172.5,141 C172.5,141 206.5,141 206.5,131 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="148.5" y="157.9951">Socket</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="148.5" y="174.292">IPv6</text></g><!--MD5=[53bced5eb8957db72541a66defa9639b]
+entity p4--><g id="elem_p4"><path d="M10.5,261 C10.5,251 54.5,251 54.5,251 C54.5,251 98.5,251 98.5,261 L98.5,286.2969 C98.5,296.2969 54.5,296.2969 54.5,296.2969 C54.5,296.2969 10.5,296.2969 10.5,286.2969 L10.5,261 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M10.5,261 C10.5,271 54.5,271 54.5,271 C54.5,271 98.5,271 98.5,261 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="20.5" y="287.9951">Port 3000</text></g><!--MD5=[8a11d1af3ff0533d79024e82295089fe]
+entity p6--><g id="elem_p6"><path d="M133.5,261 C133.5,251 177.5,251 177.5,251 C177.5,251 221.5,251 221.5,261 L221.5,286.2969 C221.5,296.2969 177.5,296.2969 177.5,296.2969 C177.5,296.2969 133.5,296.2969 133.5,286.2969 L133.5,261 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M133.5,261 C133.5,271 177.5,271 177.5,271 C177.5,271 221.5,271 221.5,261 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="143.5" y="287.9951">Port 3001</text></g><!--MD5=[a11cd84f1a6c7d879a04d71f1056af5a]
+link lst to s4--><g id="link_lst_s4"><path d="M102.68,53.01 C95.13,68.35 84.82,89.33 75.67,107.94 " fill="none" id="lst-to-s4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="73.37,112.61,80.9405,106.3103,75.5832,108.1265,73.7669,102.7691,73.37,112.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7cd8212314cd2f5029dfcbf66690d458]
+link lst to s6--><g id="link_lst_s6"><path d="M124.32,53.01 C133.04,70.75 145.47,96.01 155.51,116.45 " fill="none" id="lst-to-s6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="157.75,120.99,157.3783,111.1482,155.5483,116.5008,150.1956,114.6709,157.75,120.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8994787a2daf67eb5920934a5249ee7c]
+link s4 to p4--><g id="link_s4_p4"><path d="M54.5,191.14 C54.5,208.81 54.5,229.4 54.5,245.45 " fill="none" id="s4-to-p4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="54.5,250.7,58.5,241.7,54.5,245.7,50.5,241.7,54.5,250.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c5341464a241814ed64d7e25b4059dc0]
+link s6 to p6--><g id="link_s6_p6"><path d="M173.76,183.15 C174.57,202.37 175.6,227.04 176.37,245.59 " fill="none" id="s6-to-p6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="176.59,250.65,180.201,241.487,176.3759,245.6546,172.2083,241.8295,176.59,250.65" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2d03031d4c0536774314fcc96243766e]
+link s6 to p4--><g id="link_s6_p4"><path d="M142.72,183.15 C123.27,202.86 98.13,228.31 79.67,247.01 " fill="none" id="s6-to-p4" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="76.07,250.65,85.2408,247.0588,79.584,247.0931,79.5498,241.4364,76.07,250.65" style="stroke:#181818;stroke-width:1.0;"/></g><rect fill="none" height="23.2813" style="stroke:none;stroke-width:1.0;" width="188" x="18.25" y="312.2969"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="81" x="18.25" y="321.5791">TcpListening()</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="101" x="102.25" y="321.5791">Sockets - IPv4 / IPv6</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="167" x="28.75" y="333.2197">(C) DSP-Crowd Electronics GmbH</text><!--MD5=[ec35c76e7f22157ed4986eb7f07ae540]
+@startuml
+
+' skinparam linetype ortho
+
+component "TcpListening()" as lst
+
+database "Socket\nIPv4 and/or\nIPv6" as s4
+database "Socket\nIPv6" as s6
+database "Port 3000" as p4
+database "Port 3001" as p6
+
+lst - -> s4
+lst - -> s6
+
+s4 - -> p4
+s6 - -> p6
+s6 ..> p4
+
+footer **TcpListening()** Sockets - IPv4 / IPv6 \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+@startuml
+
+
+component "TcpListening()" as lst
+
+database "Socket\nIPv4 and/or\nIPv6" as s4
+database "Socket\nIPv6" as s6
+database "Port 3000" as p4
+database "Port 3001" as p6
+
+lst - -> s4
+lst - -> s6
+
+s4 - -> p4
+s6 - -> p6
+s6 ..> p4
+
+footer **TcpListening()** Sockets - IPv4 / IPv6 \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
