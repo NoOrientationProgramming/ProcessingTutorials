@@ -1,0 +1,22 @@
+
+@startuml
+
+' skinparam linetype polyline
+
+database "Environment" as env
+
+frame "MsgDispatching()" as pMsg
+frame "Sub1" as pSub1
+frame "Core" as pCore
+
+env --> pMsg
+env --> pSub1
+env --> pCore
+pMsg -> pSub1
+pSub1 --> pCore
+pMsg --> pCore
+
+footer **Processing()** Environment - Information Transfer\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
