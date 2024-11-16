@@ -49,9 +49,9 @@ Enter the new directory with `cd ProcessingTutorials/` and execute
 ### Build and Run a Tutorial
 
 Type
-`./meson.sh t1_hello-world`
+`./meson.sh t01_hello-world`
 or just
-`./meson.sh t1`
+`./meson.sh t01`
 
 Then execute the application by entering
 

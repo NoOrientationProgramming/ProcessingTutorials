@@ -28,6 +28,8 @@ if [ ! -d "build-meson-ubuntu" ]; then
 fi
 ninja -C build-meson-ubuntu
 
+exit 1
+
 if [ ! -d "build-meson-windows" ]; then
 	meson setup --cross-file ../docker/dependencies/build/crosscompile-win64.txt build-meson-windows
 
