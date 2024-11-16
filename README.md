@@ -4,7 +4,7 @@
 
 Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
 
-&rarr; Streaming every Tuesday and Thursday at 20:00 (8 PM) CEST at [twitch.tv/Naegolus](https://twitch.tv/Naegolus)
+&rarr; Streaming every Monday and Thursday at 20:00 (8 PM) CEST at [twitch.tv/Naegolus](https://twitch.tv/Naegolus)
 
 ## Status of the project
 
