@@ -55,7 +55,7 @@ or just
 
 Then execute the application by entering
 
-`./t1_hello-world/build-meson-ubuntu/app`
+`./t01_hello-world/build-meson-ubuntu/app`
 
 ## Read the documentation
 
