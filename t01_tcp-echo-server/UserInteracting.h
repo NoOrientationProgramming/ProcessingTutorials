@@ -2,6 +2,8 @@
 #ifndef USER_INTERACTING_H
 #define USER_INTERACTING_H
 
+#include <string>
+
 #include "Processing.h"
 #include "TcpTransfering.h"
 
@@ -29,9 +31,11 @@ private:
 
 	Success initialize();
 	Success process();
+	void processInfo(char *pBuf, char *pBufEnd);
 
 	int mFdPeer;
 	TcpTransfering *mpConn;
+	std::string mMsgLast;
 
 };
 

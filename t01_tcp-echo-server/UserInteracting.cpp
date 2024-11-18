@@ -9,6 +9,7 @@ UserInteracting::UserInteracting(int fdPeer)
 	: Processing("UserInteracting")
 	, mFdPeer(fdPeer)
 	, mpConn(NULL)
+	, mMsgLast("")
 {}
 
 Success UserInteracting::initialize()
@@ -44,7 +45,15 @@ Success UserInteracting::process()
 	procInfLog("Data received: %zu bytes", numBytesRead);
 
 	mpConn->send(buf, numBytesRead);
+	mMsgLast = buf;
+	mMsgLast.pop_back();
 
 	return Pending;
+}
+
+void UserInteracting::processInfo(char *pBuf, char *pBufEnd)
+{
+	dInfo("Last message\t\t%s",
+			mMsgLast.size() ? mMsgLast.c_str() : "-");
 }
 
