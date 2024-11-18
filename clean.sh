@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirTut="t01_hello-world"
+dirTut="t01_tcp-echo-server"
 
 if [ ! -z "$1" ]; then
 	inUser="$1"
@@ -24,4 +24,6 @@ fi
 cd "$dirTut"
 
 rm -rf build-*
+rm -rf *.o
+rm -rf app
 

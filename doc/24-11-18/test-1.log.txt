@@ -1,0 +1,29 @@
+
+$ ./valgrind.sh 
+[2/2] Linking target app
+==2392994== Memcheck, a memory error detector
+==2392994== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2392994== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==2392994== Command: ./app
+==2392994== 
+Listening on 5000
+2024-11-18  21:05:36.963 >9.999    38  INF  process               0x4e86ae0 UserInteracting            Peer disconnected
+2024-11-18  21:05:52.617 >9.999    48  INF  process               0x4df3ff0 Supervising                Peer connected
+2024-11-18  21:05:52.621 +0.004    22  INF  initialize            0x5e3ba20 UserInteracting            Peer initialized
+2024-11-18  21:05:59.660 +7.038    48  INF  process               0x4df3ff0 Supervising                Peer connected
+2024-11-18  21:05:59.700 +0.039    22  INF  initialize            0x5ecc1f0 UserInteracting            Peer initialized
+2024-11-18  21:07:29.199 >9.999    44  INF  process               0x5e3ba20 UserInteracting            Data received: 6 bytes
+2024-11-18  21:07:31.159 +1.959    44  INF  process               0x5ecc1f0 UserInteracting            Data received: 6 bytes
+^C
+==2392994== 
+==2392994== FILE DESCRIPTORS: 3 open (3 std) at exit.
+==2392994== 
+==2392994== HEAP SUMMARY:
+==2392994==     in use at exit: 0 bytes in 0 blocks
+==2392994==   total heap usage: 20,642 allocs, 20,642 frees, 20,362,805 bytes allocated
+==2392994== 
+==2392994== All heap blocks were freed -- no leaks are possible
+==2392994== 
+==2392994== For lists of detected and suppressed errors, rerun with: -s
+==2392994== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

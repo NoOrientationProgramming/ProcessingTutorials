@@ -49,13 +49,13 @@ Enter the new directory with `cd ProcessingTutorials/` and execute
 ### Build and Run a Tutorial
 
 Type
-`./meson.sh t01_hello-world`
+`./meson.sh t01_tcp-echo-server`
 or just
 `./meson.sh t01`
 
 Then execute the application by entering
 
-`./t01_hello-world/build-meson-ubuntu/app`
+`./t01_tcp-echo-server/build-meson-ubuntu/app`
 
 ## Read the documentation
 
