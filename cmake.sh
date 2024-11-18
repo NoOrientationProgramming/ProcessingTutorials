@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirTut="t1_hello-world"
+dirTut="t01_hello-world"
 
 if [ ! -z "$1" ]; then
 	inUser="$1"
@@ -30,6 +30,8 @@ cd build-cmake-ubuntu
 cmake ..
 make
 cd ..
+
+exit 1
 
 if [ ! -d "build-cmake-windows" ]; then
 	mkdir build-cmake-windows

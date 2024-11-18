@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirTut="t1_hello-world"
+dirTut="t01_hello-world"
 
 if [ ! -z "$1" ]; then
 	inUser="$1"
