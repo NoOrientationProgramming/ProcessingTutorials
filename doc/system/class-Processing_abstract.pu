@@ -8,15 +8,14 @@ skinparam class {
 	BorderColor Black
 }
 
-abstract class Processing {
-	--
+abstract class "Processing()" as pAbstract {
 }
 
-class Verb_ing < Present Participle > {
+class "Verb_ing()" as pConcrete <<Present Participle>> {
 }
 
-Processing "1" o-u- "0..*" Processing
-Processing <|-- Verb_ing
+pAbstract "1" o-u- "0..*" pAbstract
+pAbstract <|-- pConcrete
 
 footer **Processing()** Class Diagram - Abstract \n(C) DSP-Crowd Electronics GmbH
 
