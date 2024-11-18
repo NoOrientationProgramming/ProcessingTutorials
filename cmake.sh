@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirTut="t01_hello-world"
+dirTut="t01_tcp-echo-server"
 
 if [ ! -z "$1" ]; then
 	inUser="$1"
@@ -31,7 +31,7 @@ cmake ..
 make
 cd ..
 
-exit 1
+exit 0
 
 if [ ! -d "build-cmake-windows" ]; then
 	mkdir build-cmake-windows

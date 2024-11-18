@@ -2,11 +2,18 @@
 cx=g++
 flagsCxx= \
 	-I../ProcessingCore \
+	-DCONFIG_PROC_HAVE_LOG=1 \
 
 obs= \
 	Processing.o \
+	Log.o \
+	TcpListening.o \
+	TcpTransfering.o \
+	SystemCommanding.o \
+	SystemDebugging.o \
 	main.o \
 	Supervising.o \
+	UserInteracting.o \
 
 nameApp=app
 ifeq ($(OS),Windows_NT)
