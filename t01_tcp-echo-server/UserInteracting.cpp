@@ -19,6 +19,8 @@ dProcessStateEnum(SdState);
 
 using namespace std;
 
+extern bool shutdownRequested;
+
 UserInteracting::UserInteracting(int fdPeer)
 	: Processing("UserInteracting")
 	, mStateSd(StSdStart)
@@ -61,13 +63,19 @@ Success UserInteracting::process()
 		if (success != Positive)
 			return Positive;
 
-		if (msg != "quit")
-			break;
+		if (msg == "quit")
+		{
+			procInfLog("Peer quit");
+			mQuitByUser = true;
+			return Positive;
+		}
 
-		procInfLog("Peer quit");
-		mQuitByUser = true;
-
-		return Positive;
+		if (msg == "shutdown")
+		{
+			procInfLog("Shutdown requested");
+			shutdownRequested = true;
+			return Positive;
+		}
 
 		break;
 	default:
