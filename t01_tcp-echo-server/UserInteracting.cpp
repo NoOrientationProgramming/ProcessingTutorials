@@ -3,56 +3,81 @@
 
 #include "UserInteracting.h"
 
+#define dForEach_ProcState(gen) \
+		gen(StStart) \
+		gen(StMain) \
+
+#define dGenProcStateEnum(s) s,
+dProcessStateEnum(ProcState);
+
+#define dForEach_SdState(gen) \
+		gen(StSdStart) \
+		gen(StSdUserAckWait) \
+
+#define dGenSdStateEnum(s) s,
+dProcessStateEnum(SdState);
+
 using namespace std;
 
 UserInteracting::UserInteracting(int fdPeer)
 	: Processing("UserInteracting")
+	, mStateSd(StSdStart)
 	, mFdPeer(fdPeer)
 	, mpConn(NULL)
 	, mMsgLast("")
-	, mConnIsDown(false)
 	, mQuitByUser(false)
-	, mInfoShutdownSent(false)
-{}
-
-Success UserInteracting::initialize()
 {
-	mpConn = TcpTransfering::create(mFdPeer);
-	if (!mpConn)
-		return procErrLog(-1, "could not create process");
-
-	start(mpConn);
-
-	procInfLog("Peer initialized");
-
-	return Positive;
+	mState = StStart;
 }
 
 Success UserInteracting::process()
 {
 	Success success;
 	string msg;
-
-	success = msgReceive(msg);
-	if (success == Pending)
-		return Pending;
-
-	if (success != Positive)
+#if 0
+	dStateTrace;
+#endif
+	switch (mState)
 	{
-		mConnIsDown = true;
-		return Positive;
-	}
+	case StStart:
 
-	if (msg == "quit")
-	{
+		mpConn = TcpTransfering::create(mFdPeer);
+		if (!mpConn)
+			return procErrLog(-1, "could not create process");
+
+		start(mpConn);
+
+		procInfLog("Peer initialized");
+
+		mState = StMain;
+
+		break;
+	case StMain:
+
+		success = msgReceive(msg);
+		if (success == Pending)
+			return Pending;
+
+		if (success != Positive)
+			return Positive;
+
+		if (msg != "quit")
+			break;
+
 		procInfLog("Peer quit");
 		mQuitByUser = true;
+
 		return Positive;
+
+		break;
+	default:
+		break;
 	}
 
-	mMsgLast = msg;
-	msg += "\r\n";
+	if (!msg.size())
+		return Pending;
 
+	msg += "\r\n";
 	mpConn->send(msg.c_str(), msg.size());
 
 	return Pending;
@@ -60,43 +85,48 @@ Success UserInteracting::process()
 
 Success UserInteracting::shutdown()
 {
-	if (mConnIsDown)
-		return Positive;
-
+	Success success;
 	string msg;
 
-	if (mQuitByUser)
+	switch (mStateSd)
 	{
-		msg = "Bye bye!\r\n";
-		mpConn->send(msg.c_str(), msg.size());
-		return Positive;
-	}
+	case StSdStart:
 
-	if (!mInfoShutdownSent)
-	{
-		mInfoShutdownSent = true;
+		if (mQuitByUser)
+		{
+			msg = "Bye bye!\r\n";
+			mpConn->send(msg.c_str(), msg.size());
+			return Positive;
+		}
 
 		msg = "Server wants to say good bye!\r\n";
 		msg += "Send a last message <3 :-*\r\n";
 
 		mpConn->send(msg.c_str(), msg.size());
 
-		return Pending;
-	}
+		mStateSd = StSdUserAckWait;
 
-	Success success;
+		break;
+	case StSdUserAckWait:
 
-	success = msgReceive(msg);
-	if (success == Pending)
-		return Pending;
+		success = msgReceive(msg);
+		if (success == Pending)
+			return Pending;
 
-	if (success != Positive)
+		if (success != Positive)
+			return Positive;
+
+		msg = "Bye bye!\r\n";
+		mpConn->send(msg.c_str(), msg.size());
+
 		return Positive;
 
-	msg = "Bye bye!\r\n";
-	mpConn->send(msg.c_str(), msg.size());
+		break;
+	default:
+		break;
+	}
 
-	return Positive;
+	return Pending;
 }
 
 Success UserInteracting::msgReceive(string &msg)
@@ -128,6 +158,8 @@ Success UserInteracting::msgReceive(string &msg)
 		msg.pop_back();
 
 	procInfLog("Message received: '%s'", msg.c_str());
+
+	mMsgLast = msg;
 
 	return Positive;
 }

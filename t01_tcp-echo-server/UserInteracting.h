@@ -29,18 +29,16 @@ private:
 	UserInteracting(const UserInteracting &) = delete;
 	UserInteracting &operator=(const UserInteracting &) = delete;
 
-	Success initialize();
 	Success process();
 	Success shutdown();
 	Success msgReceive(std::string &msg);
 	void processInfo(char *pBuf, char *pBufEnd);
 
+	uint32_t mStateSd;
 	int mFdPeer;
 	TcpTransfering *mpConn;
 	std::string mMsgLast;
-	bool mConnIsDown;
 	bool mQuitByUser;
-	bool mInfoShutdownSent;
 
 };
 
