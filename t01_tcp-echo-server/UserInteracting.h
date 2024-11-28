@@ -31,11 +31,16 @@ private:
 
 	Success initialize();
 	Success process();
+	Success shutdown();
+	Success msgReceive(std::string &msg);
 	void processInfo(char *pBuf, char *pBufEnd);
 
 	int mFdPeer;
 	TcpTransfering *mpConn;
 	std::string mMsgLast;
+	bool mConnIsDown;
+	bool mQuitByUser;
+	bool mInfoShutdownSent;
 
 };
 

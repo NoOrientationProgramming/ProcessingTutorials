@@ -2,64 +2,204 @@
 #include <iostream>
 
 #include "Supervising.h"
-#include "UserInteracting.h"
 #include "SystemDebugging.h"
+
+#define dForEach_ProcState(gen) \
+		gen(StStart) \
+		gen(StMain) \
+
+#define dGenProcStateEnum(s) s,
+dProcessStateEnum(ProcState);
+
+#if 1
+#define dGenProcStateString(s) #s,
+dProcessStateStr(ProcState);
+#endif
+
+#define dForEach_SdState(gen) \
+		gen(StSdStart) \
+		gen(StSdUsersDoneWait) \
+
+#define dGenSdStateEnum(s) s,
+dProcessStateEnum(SdState);
 
 using namespace std;
 
 Supervising::Supervising()
 	: Processing("Supervising")
+	, mStateSd(StSdStart)
 	, mpList(NULL)
-{}
+	, mListUsers()
+{
+	mState = StStart;
+}
 
-Success Supervising::initialize()
+Success Supervising::process()
+{
+	bool ok;
+#if 0
+	dStateTrace;
+#endif
+	switch (mState)
+	{
+	case StStart:
+
+		ok = servicesStart();
+		if (!ok)
+			return Positive;
+
+		mState = StMain;
+
+		break;
+	case StMain:
+
+		usersAdd();
+		usersRemove();
+
+		break;
+	default:
+		break;
+	}
+
+	return Pending;
+}
+
+Success Supervising::shutdown()
+{
+	switch (mStateSd)
+	{
+	case StSdStart:
+
+		if (!mListUsers.size())
+			return Positive;
+
+		usersCancel();
+
+		procWrnLog("shutdown initiated. all users must accept first");
+
+		mStateSd = StSdUsersDoneWait;
+
+		break;
+	case StSdUsersDoneWait:
+
+		if (!usersDone())
+			return Pending;
+
+		return Positive;
+
+		break;
+	default:
+		break;
+	}
+
+	return Pending;
+}
+
+bool Supervising::servicesStart()
 {
 	Processing *pProc;
 
 	pProc = SystemDebugging::create(this);
 	if (!pProc)
-		return procErrLog(-1, "could not create process");
+	{
+		procWrnLog("could not create process");
+		return false;
+	}
 
 	pProc->procTreeDisplaySet(false);
 	start(pProc);
 
 	mpList = TcpListening::create();
 	if (!mpList)
-		return procErrLog(-1, "could not create process");
+	{
+		procWrnLog("could not create process");
+		return false;
+	}
 
 	uint16_t port = 5000;
 	mpList->portSet(port);
 
-	start(mpList); // keep in main thread
+	start(mpList); // start in main thread
 
 	cout << "Listening on " << port << endl;
 
-	return Positive;
+	return true;
 }
 
-Success Supervising::process()
+void Supervising::usersAdd()
 {
 	PipeEntry<int> peerFdEntry;
 	int peerFd;
 
 	if (mpList->ppPeerFd.get(peerFdEntry) < 1)
-		return Pending;
+		return;
 	peerFd = peerFdEntry.particle;
 
 	procInfLog("Peer connected");
 
-	Processing *pUser;
+	UserInteracting *pUser;
 
 	pUser = UserInteracting::create(peerFd);
 	if (!pUser)
 	{
 		procWrnLog("could not create process");
-		return Pending;
+		return;
 	}
 
 	start(pUser, DrivenByNewInternalDriver); // start in new thread
-	whenFinishedRepel(pUser); // detached
 
-	return Pending;
+	mListUsers.push_back(pUser);
+}
+
+void Supervising::usersRemove()
+{
+	list<UserInteracting *>::iterator iUser;
+	UserInteracting *pUser;
+
+	iUser = mListUsers.begin();
+	while (iUser != mListUsers.end())
+	{
+		pUser = *iUser;
+
+		if (pUser->progress())
+		{
+			++iUser;
+			continue;
+		}
+
+		repel(pUser);
+
+		iUser = mListUsers.erase(iUser);
+	}
+}
+
+void Supervising::usersCancel()
+{
+	list<UserInteracting *>::iterator iUser;
+
+	iUser = mListUsers.begin();
+	for (; iUser != mListUsers.end(); ++iUser)
+		cancel(*iUser);
+}
+
+bool Supervising::usersDone()
+{
+	list<UserInteracting *>::iterator iUser;
+
+	iUser = mListUsers.begin();
+	for (; iUser != mListUsers.end(); ++iUser)
+	{
+		if((*iUser)->progress())
+			return false;
+	}
+
+	return true;
+}
+
+void Supervising::processInfo(char *pBuf, char *pBufEnd)
+{
+#if 1
+	dInfo("State\t\t\t%s\n", ProcStateString[mState]);
+#endif
 }
 

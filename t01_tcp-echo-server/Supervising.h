@@ -4,6 +4,7 @@
 
 #include "Processing.h"
 #include "TcpListening.h"
+#include "UserInteracting.h"
 
 class Supervising : public Processing
 {
@@ -25,10 +26,19 @@ private:
 	Supervising(const Supervising &) = delete;
 	Supervising &operator=(const Supervising &) = delete;
 
-	Success initialize();
 	Success process();
+	Success shutdown();
+	void processInfo(char *pBuf, char *pBufEnd);
 
+	bool servicesStart();
+	void usersAdd();
+	void usersRemove();
+	void usersCancel();
+	bool usersDone();
+
+	uint32_t mStateSd;
 	TcpListening *mpList;
+	std::list<UserInteracting *> mListUsers;
 
 };
 
