@@ -30,6 +30,8 @@ dProcessStateStr(SdState);
 
 using namespace std;
 
+bool shutdownRequested = false;
+
 Supervising::Supervising()
 	: Processing("Supervising")
 	, mStateSd(StSdStart)
@@ -60,6 +62,9 @@ Success Supervising::process()
 
 		usersAdd();
 		usersRemove();
+
+		if (shutdownRequested)
+			return Positive;
 
 		break;
 	default:
