@@ -23,6 +23,11 @@ dProcessStateStr(ProcState);
 #define dGenSdStateEnum(s) s,
 dProcessStateEnum(SdState);
 
+#if 1
+#define dGenSdStateString(s) #s,
+dProcessStateStr(SdState);
+#endif
+
 using namespace std;
 
 Supervising::Supervising()
@@ -200,6 +205,7 @@ void Supervising::processInfo(char *pBuf, char *pBufEnd)
 {
 #if 1
 	dInfo("State\t\t\t%s\n", ProcStateString[mState]);
+	dInfo("State shutdown\t%s\n", SdStateString[mStateSd]);
 #endif
 }
 
