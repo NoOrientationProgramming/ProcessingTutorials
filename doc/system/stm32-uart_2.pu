@@ -1,0 +1,60 @@
+
+@startuml
+
+' skinparam linetype ortho
+
+component PC as pc {
+  component "Python Gateway" as gw
+  
+  component "Log" as log
+  component "Command" as cmd
+  component "Process Tree" as tree
+  
+  component "Client 1" as clt1
+  component "Client 2" as clt2
+  
+  component "Programmer and\nDebugger Software" as dbgPc
+  component "Application Source\nVersion = ???" as src
+}
+
+component "Converter from\nUART to USB" as cnvt2
+
+component "Target STM32 with UART" as trg {
+  component "SystemDebugging()" as dbg
+  component "SingleWireTransfering()" as swt
+  component "Programming and\nDebug Hardware Module" as segInt
+  component "AppProcessing()" as app
+
+  component "Segger JLink" as seg
+}
+
+dbg <-> app
+dbg <--> swt
+app <--> segInt
+
+gw -[hidden]r- dbgPc
+
+swt -[hidden]r- segInt
+swt <--> cnvt2 : UART
+
+cnvt2 <--> gw : USB
+
+segInt <-> seg : J-Link
+
+seg <--> dbgPc : USB
+dbgPc <-- src
+
+gw --> log
+gw <--> cmd
+tree <- gw
+
+tree --> clt1
+log --> clt1
+log --> clt2
+cmd <--> clt1
+cmd <--> clt2
+
+footer **Processing()** STM32 Targets with UART as communication channel \n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
