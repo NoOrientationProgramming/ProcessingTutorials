@@ -3,12 +3,12 @@
 
 ' skinparam linetype ortho
 
-component Log as log
-component "Processing()" as proc
-component "SystemCommanding()" as cmd
-component "SystemDebugging()" as dbg
-component "TcpListening()" as lst
-component "TcpTransfering()" as trans
+frame Log as log
+frame "Processing()" as proc
+frame "SystemCommanding()" as cmd
+frame "SystemDebugging()" as dbg
+frame "TcpListening()" as lst
+frame "TcpTransfering()" as trans
 
 proc --> cmd
 proc --> dbg
