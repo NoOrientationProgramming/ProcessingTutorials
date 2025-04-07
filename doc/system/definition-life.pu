@@ -8,7 +8,7 @@ database "Existence" as sExist
 frame "Change" as pChange
 
 component "System" as pSys
-database "State" as sState
+database "States" as sState
 frame "Processes" as pProc
 
 pLife <-l- sExist
