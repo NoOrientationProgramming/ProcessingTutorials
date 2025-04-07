@@ -1,0 +1,27 @@
+
+@startuml
+
+' skinparam linetype polyline
+
+component "Life" as pLife
+database "Existence" as sExist
+frame "Change" as pChange
+
+component "System" as pSys
+database "State" as sState
+frame "Processes" as pProc
+
+pLife <-l- sExist
+pLife <-r- pChange
+
+pSys <-l- sState
+pSys <-r- pProc
+
+sExist ..> sState
+pLife ..> pSys : Instance of
+pChange ..> pProc
+
+footer **Processing()** Life - Definition\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
