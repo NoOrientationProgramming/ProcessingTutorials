@@ -93,7 +93,7 @@ Success Supervising::shutdown()
 	case StSdUsersDoneWait:
 
 		if (!usersDone())
-			return Pending;
+			break;
 
 		return Positive;
 
