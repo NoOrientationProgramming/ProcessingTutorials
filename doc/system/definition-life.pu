@@ -11,9 +11,11 @@ component "System" as pSys
 database "States" as sState
 frame "Processes" as pProc
 
+pLife --> pLife
 pLife <-l- sExist
 pLife <-r- pChange
 
+pSys --> pSys
 pSys <-l- sState
 pSys <-r- pProc
 
