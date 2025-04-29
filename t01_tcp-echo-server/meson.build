@@ -1,21 +1,21 @@
 
-project('NOP - Processing() Tutorials', 'cpp')
+project('NOP - Tutorials', 'cpp')
 
 myApp = executable(
 	'app',
 	[
-		'../ProcessingCore/Processing.cpp',
-		'../ProcessingCore/Log.cpp',
-		'../ProcessingCore/TcpListening.cpp',
-		'../ProcessingCore/TcpTransfering.cpp',
-		'../ProcessingCore/SystemCommanding.cpp',
-		'../ProcessingCore/SystemDebugging.cpp',
+		'../SystemCore/Processing.cpp',
+		'../SystemCore/Log.cpp',
+		'../SystemCore/TcpListening.cpp',
+		'../SystemCore/TcpTransfering.cpp',
+		'../SystemCore/SystemCommanding.cpp',
+		'../SystemCore/SystemDebugging.cpp',
 		'main.cpp',
 		'Supervising.cpp',
 		'UserInteracting.cpp',
 	],
 	include_directories : include_directories([
-		'../ProcessingCore',
+		'../SystemCore',
 	]),
 	dependencies : [
 		dependency('threads'),

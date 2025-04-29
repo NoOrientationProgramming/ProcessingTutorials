@@ -1,1 +1,4 @@
 
+[submodule "SystemCore"]
+	path = SystemCore
+	url = https://github.com/NoOrientationProgramming/SystemCore.git
